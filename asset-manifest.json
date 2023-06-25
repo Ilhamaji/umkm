@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/umkm/static/css/main.073c9b0a.css",
+    "main.css": "/umkm/static/css/main.22ab5e6e.css",
     "main.js": "/umkm/static/js/main.0e572480.js",
     "static/js/787.ce240d17.chunk.js": "/umkm/static/js/787.ce240d17.chunk.js",
     "static/media/logo.svg": "/umkm/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/umkm/index.html",
-    "main.073c9b0a.css.map": "/umkm/static/css/main.073c9b0a.css.map",
+    "main.22ab5e6e.css.map": "/umkm/static/css/main.22ab5e6e.css.map",
     "main.0e572480.js.map": "/umkm/static/js/main.0e572480.js.map",
     "787.ce240d17.chunk.js.map": "/umkm/static/js/787.ce240d17.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
+    "static/css/main.22ab5e6e.css",
     "static/js/main.0e572480.js"
   ]
 }

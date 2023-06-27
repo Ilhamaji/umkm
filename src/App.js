@@ -1,11 +1,18 @@
-import logo from "./logo.svg";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
+import Home from "./Pages/Home";
+import About from "./Pages/About";
+import NotFound from "./Pages/NotFound";
 
 function App() {
   return (
-    <div>
-      <h1 className="bg-sky-300">Hello World!</h1>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </Router>
   );
 }
 

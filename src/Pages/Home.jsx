@@ -7,20 +7,22 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <div className="border-l-2 border-r-2 border-slate-200 border-solid mx-5 pt-36 pb-48">
-        <div className="text-center">
-          <p className="text-slate-500">Beli Kerajinan Tangan Keinginanmu.</p>
-        </div>
-        <div className="text-center">
-          <p className="text-5xl font-black jumbotron inline">
-            Selamat Datang di{" "}
-            <p className="inline lobster text-pink-500">Kirei</p>
-          </p>
-        </div>
-        <div className="text-center my-7">
-          <p className="text-5xl px-5 rounded bg-lime-300 font-black jumbotron inline text-white">
-            Craft & Accesories
-          </p>
+      <div className="back">
+        <div className="border-l-2 border-r-2 border-slate-200 border-solid pt-36 pb-48">
+          <div className="text-center">
+            <p className="text-slate-500">Beli Kerajinan Tangan Keinginanmu.</p>
+          </div>
+          <div className="text-center">
+            <p className="text-5xl font-black jumbotron inline">
+              Selamat Datang di{" "}
+              <p className="inline lobster text-pink-500">Kirei</p>
+            </p>
+          </div>
+          <div className="text-center my-7">
+            <p className="text-5xl px-5 rounded bg-lime-300 font-black jumbotron inline text-white">
+              Craft & Accesories
+            </p>
+          </div>
         </div>
       </div>
 

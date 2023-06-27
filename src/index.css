@@ -12,6 +12,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.back {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+  background-image: url("./Assets/circle-scatter-haikei.svg");
+  background-size: cover;
+}
+
 .anton {
   font-family: "Anton", sans-serif;
 }

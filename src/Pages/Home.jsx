@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <div className="border-l-2 border-r-2 border-slate-200 border-solid mx-5 py-40">
+      <div className="border-l-2 border-r-2 border-slate-200 border-solid mx-5 pt-36 pb-48">
         <div className="text-center">
           <p className="text-slate-500">Beli Kerajinan Tangan Keinginanmu.</p>
         </div>

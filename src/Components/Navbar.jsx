@@ -1,15 +1,13 @@
 import React from "react";
 import Logo from "../Assets/logo-removebg.png";
-import { NavLink, useNavigate } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export default function Navbar() {
-  const navigate = useNavigate();
-
   return (
     <div className="sticky top-0 flex justify-between py-5 w-100 bg-white mx-5 border-b-2 border-l-2 border-r-2 border-slate-200 border-solid">
       <ul className="ml-5">
         <li className="mr-5">
-          <img src={Logo} className="w-20" />
+          <img src={Logo} alt="logo" className="w-20" />
         </li>
       </ul>
       <ul className="m-auto h-100">

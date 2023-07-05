@@ -5,8 +5,8 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <div className="back">
-        <div className="border-l-2 border-r-2 border-slate-200 border-solid pt-36 pb-48">
+      <div className="back z-0">
+        <div className="pt-36 pb-48">
           <div className="text-center">
             <p className="text-slate-500">Beli Kerajinan Tangan Keinginanmu.</p>
           </div>

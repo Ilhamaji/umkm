@@ -10,13 +10,13 @@ export default function Home() {
           <div className="text-center">
             <p className="text-slate-500">Beli Kerajinan Tangan Keinginanmu.</p>
           </div>
-          <div className="text-center">
+          <div className="text-center mx-5">
             <p className="text-5xl font-black jumbotron inline">
               Selamat Datang di{" "}
               <p className="inline lobster text-pink-500">Kirei</p>
             </p>
           </div>
-          <div className="text-center my-7">
+          <div className="text-center mx-5 my-7">
             <p className="text-5xl px-5 rounded bg-lime-300 font-black jumbotron inline text-white">
               Craft & Accesories
             </p>

@@ -35,8 +35,22 @@ export default function Home() {
         </div>
         <div className="w-100 mx-10 border-b-1"></div>
 
-        <div className="bg-neutral-800 h-60 w-60 ml-10 rounded-3xl my-10 ">
-          <p></p>
+        <div className="flex flex-wrap justify-center w-100 mr-10">
+          <div className="bg-neutral-800 h-60 w-60 ml-10 rounded-3xl my-10 ">
+            <p></p>
+          </div>
+          <div className="bg-neutral-800 h-60 w-60 ml-10 rounded-3xl my-10 ">
+            <p></p>
+          </div>
+          <div className="bg-neutral-800 h-60 w-60 ml-10 rounded-3xl my-10 ">
+            <p></p>
+          </div>
+          <div className="bg-neutral-800 h-60 w-60 ml-10 rounded-3xl my-10 ">
+            <p></p>
+          </div>
+          <div className="bg-neutral-800 h-60 w-60 ml-10 rounded-3xl my-10 ">
+            <p></p>
+          </div>
         </div>
       </div>
     </>

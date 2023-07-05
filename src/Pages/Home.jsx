@@ -6,7 +6,7 @@ export default function Home() {
     <>
       <Navbar />
       <div className="back z-0">
-        <div className="pt-20 md:pt-36 pb-36 md:pb-48">
+        <div className="pt-20 md:pt-36 pb-32 md:pb-48">
           <div className="text-center">
             <div className="text-slate-500">
               Beli Kerajinan Tangan Keinginanmu.
@@ -18,7 +18,7 @@ export default function Home() {
               <div className="inline lobster text-pink-500">Kirei</div>
             </div>
           </div>
-          <div className="text-center mx-5 my-7">
+          <div className="text-center mx-5 my-2 md:my-7">
             <div className="text-3xl md:text-5xl px-5 rounded bg-lime-300 font-black jumbotron inline text-white">
               Craft & Accesories
             </div>

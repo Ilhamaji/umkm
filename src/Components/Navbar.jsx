@@ -14,7 +14,7 @@ export default function Navbar() {
 
   return (
     <>
-      <div className="sticky top-0 justify-between py-5 w-100 bg-white border-b-2 border-l-2 border-r-2 border-slate-200 border-solid flex">
+      <div className="sticky shadow-md top-0 justify-between py-5 w-100 bg-white flex">
         <ul className="ml-5">
           <li className="mr-5">
             <img src={Logo} alt="logo" className="w-20" />
@@ -94,28 +94,28 @@ export default function Navbar() {
       {!collapse ? (
         ""
       ) : (
-        <ul className="sticky md:hidden bg-white border-slate-300 rounded border ml-auto w-fit top-16 z-40">
+        <ul className="sticky md:hidden shadow-md bg-white border-slate-300 rounded border ml-auto w-100 top-16 z-40">
           <NavLink
             to={"/"}
-            className="block text-right pl-20 pr-6 py-2 hover:bg-pink-400 hover:text-white"
+            className="block text-center py-2 hover:bg-pink-400 hover:text-white"
           >
             Home
           </NavLink>
           <NavLink
             to={"/products"}
-            className="block text-right pl-20 pr-6 py-2 hover:bg-pink-400 hover:text-white"
+            className="block text-center py-2 hover:bg-pink-400 hover:text-white"
           >
             Products
           </NavLink>
           <NavLink
             to={"/about"}
-            className="block text-right pl-20 pr-6 py-2 hover:bg-pink-400 hover:text-white"
+            className="block text-center py-2 hover:bg-pink-400 hover:text-white"
           >
             About
           </NavLink>
           <NavLink
             to={"/contact"}
-            className="block text-right pl-20 pr-6 py-2 hover:bg-pink-400 hover:text-white"
+            className="block text-center py-2 hover:bg-pink-400 hover:text-white"
           >
             Contact
           </NavLink>

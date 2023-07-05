@@ -94,7 +94,7 @@ export default function Navbar() {
       {!collapse ? (
         ""
       ) : (
-        <ul className="sticky md:hidden shadow-md bg-white border-slate-300 rounded border ml-auto w-100 top-16 z-40">
+        <ul className="sticky md:hidden shadow-md bg-white rounded ml-auto w-100 top-16 z-40">
           <NavLink
             to={"/"}
             className="block text-center py-2 hover:bg-pink-400 hover:text-white"

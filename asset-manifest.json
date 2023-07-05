@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/umkm/static/css/main.239acb7b.css",
-    "main.js": "/umkm/static/js/main.b89bafcb.js",
+    "main.js": "/umkm/static/js/main.c945efd8.js",
     "static/js/787.ce240d17.chunk.js": "/umkm/static/js/787.ce240d17.chunk.js",
     "static/media/logo-removebg.png": "/umkm/static/media/logo-removebg.8fd146e90629d116a509.png",
     "index.html": "/umkm/index.html",
     "static/media/circle-scatter-haikei.svg": "/umkm/static/media/circle-scatter-haikei.532e744107c99c24aedb.svg",
     "main.239acb7b.css.map": "/umkm/static/css/main.239acb7b.css.map",
-    "main.b89bafcb.js.map": "/umkm/static/js/main.b89bafcb.js.map",
+    "main.c945efd8.js.map": "/umkm/static/js/main.c945efd8.js.map",
     "787.ce240d17.chunk.js.map": "/umkm/static/js/787.ce240d17.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.239acb7b.css",
-    "static/js/main.b89bafcb.js"
+    "static/js/main.c945efd8.js"
   ]
 }

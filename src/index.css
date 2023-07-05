@@ -17,6 +17,7 @@ body {
 }
 
 .back {
+  background-position: 0pt;
   background-image: url("./Assets/circle-scatter-haikei.svg");
   background-size: cover;
 }

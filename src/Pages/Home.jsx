@@ -6,7 +6,7 @@ export default function Home() {
     <>
       <Navbar />
       <div className="back z-0">
-        <div className="pt-36 pb-48">
+        <div className="pt-20 md:pt-36 pb-36 md:pb-48">
           <div className="text-center">
             <p className="text-slate-500">Beli Kerajinan Tangan Keinginanmu.</p>
           </div>

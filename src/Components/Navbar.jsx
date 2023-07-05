@@ -74,14 +74,14 @@ export default function Navbar() {
             <div
               className={
                 collapse
-                  ? "w-6 h-1 bg-slate-900 my-1 rotate-135 duration-300"
+                  ? "hidden duration-300"
                   : "w-6 h-1 bg-slate-900 my-1 duration-300"
               }
             ></div>
             <div
               className={
                 collapse
-                  ? "hidden duration-300"
+                  ? "w-6 h-1 bg-slate-900 my-1 rotate-135 duration-300"
                   : "w-6 h-1 bg-slate-900 my-1 duration-300"
               }
             >

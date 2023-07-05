@@ -3,7 +3,7 @@
 @tailwind utilities;
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Lobster&family=Pacifico&display=swap");
 body {
-  background-color: white;
+  background-color: pink;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
@@ -18,7 +18,7 @@ body {
 
 .back {
   background-position: 0pt;
-  background-image: url("./Assets/circle-scatter-haikei.svg");
+  background-image: url("./Assets/blob-scene-haikei.svg");
   background-size: cover;
 }
 

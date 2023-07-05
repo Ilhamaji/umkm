@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/umkm/static/css/main.c9b85a6e.css",
-    "main.js": "/umkm/static/js/main.8e7fe15c.js",
+    "main.css": "/umkm/static/css/main.c7bfc883.css",
+    "main.js": "/umkm/static/js/main.b8a3eec7.js",
     "static/js/787.ce240d17.chunk.js": "/umkm/static/js/787.ce240d17.chunk.js",
     "static/media/logo-removebg.png": "/umkm/static/media/logo-removebg.8fd146e90629d116a509.png",
     "static/media/blob-scene-haikei.svg": "/umkm/static/media/blob-scene-haikei.97eb6c52f97262861d53.svg",
     "index.html": "/umkm/index.html",
-    "main.c9b85a6e.css.map": "/umkm/static/css/main.c9b85a6e.css.map",
-    "main.8e7fe15c.js.map": "/umkm/static/js/main.8e7fe15c.js.map",
+    "main.c7bfc883.css.map": "/umkm/static/css/main.c7bfc883.css.map",
+    "main.b8a3eec7.js.map": "/umkm/static/js/main.b8a3eec7.js.map",
     "787.ce240d17.chunk.js.map": "/umkm/static/js/787.ce240d17.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c9b85a6e.css",
-    "static/js/main.8e7fe15c.js"
+    "static/css/main.c7bfc883.css",
+    "static/js/main.b8a3eec7.js"
   ]
 }

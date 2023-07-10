@@ -95,7 +95,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="bg-neutral-800 w-full text-white text-center">
-        <div className="py-5">Copyright {copyright} 2023 Kirei Gallery</div>
+        <div className="py-5">Copyright {copyright} 2023 Kirei Galeri</div>
       </div>
     </>
   );

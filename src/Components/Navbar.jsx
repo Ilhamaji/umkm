@@ -55,10 +55,12 @@ export default function Navbar() {
           </li>
         </ul>
         <ul className="mr-5 hidden md:inline">
-          <li className="inline ml-5 text-slate-500">FAQ</li>
-          <li className="transition hover:transition inline ml-5 border border-pink-500 rounded py-2 px-5 hover:cursor-pointer hover:bg-pink-500 hover:text-white">
-            Get Started
-          </li>
+          <NavLink
+            to="/faq"
+            className="transition hover:transition inline ml-5 border border-pink-500 rounded py-2 px-5 hover:cursor-pointer hover:bg-pink-500 hover:text-white"
+          >
+            FAQ
+          </NavLink>
         </ul>
         <ul className="md:hidden inline mr-5">
           <button onClick={colClicked}>

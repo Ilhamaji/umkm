@@ -27,7 +27,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="bg-neutral-950 rounded-3xl -mt-5 w-100 pb-5 mx-5">
+      <div className="bg-neutral-950 rounded-3xl -mt-5 w-100 pb-5 md:mx-5">
         <div className="flex justify-between">
           <div className="pt-10 pb-5 mx-10 text-white font-semibold text-lg">
             Produk Kita

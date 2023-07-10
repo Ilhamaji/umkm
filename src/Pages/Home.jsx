@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../Components/Navbar";
+import Tas1 from "../Assets/tas-1.jpeg";
 
 export default function Home() {
   return (
@@ -37,21 +38,131 @@ export default function Home() {
         </div>
         <div className="w-100 mx-10 border-b-1"></div>
 
-        <div className="flex flex-wrap justify-center w-100 mr-10">
-          <div className="bg-neutral-800 h-60 w-60 ml-10 rounded-3xl my-10 ">
-            <span></span>
+        <div className="flex flex-wrap justify-center w-100 mr-10 my-5 overflow-hidden">
+          <div className="bg-neutral-800 h-96 w-96 rounded-3xl my-5 ml-10 group hover:bg-neutral-900 duration-300">
+            <div className="flex px-7 py-7">
+              <div className="text-4xl text-white w-10 font-semibold">Tas</div>
+              <div className="text-4xl text-white font-semibold bg-neutral-500 group-hover:bg-white rounded-full ml-auto mr-0 h-16 w-16">
+                <div className="-rotate-45 align-middle text-center mt-2.5 -ml-1 group-hover:text-pink-500">
+                  ➜
+                </div>
+              </div>
+            </div>
+            <center>
+              <div className="w-85 h-px bg-slate-300"></div>
+              <div className="h-48 overflow-hidden w-85 mt-7 hover:scale-x-110 hover:scale-y-110 duration-300 rounded-3xl">
+                <img
+                  src={Tas1}
+                  className="flex z-0 h-100 -translate-y-36 grayscale group-hover:grayscale-0 duration-300 hover:scale-x-110 hover:scale-y-110"
+                  alt="Tas1"
+                />
+              </div>
+            </center>
           </div>
-          <div className="bg-neutral-800 h-60 w-60 ml-10 rounded-3xl my-10 ">
-            <span></span>
+
+          <div className="bg-neutral-800 h-96 w-96 rounded-3xl my-5 ml-10 group hover:bg-neutral-900 duration-300">
+            <div className="flex px-7 py-7">
+              <div className="text-4xl text-white w-10 font-semibold">Tas</div>
+              <div className="text-4xl text-white font-semibold bg-neutral-500 group-hover:bg-white rounded-full ml-auto mr-0 h-16 w-16">
+                <div className="-rotate-45 align-middle text-center mt-2.5 -ml-1 group-hover:text-pink-500">
+                  ➜
+                </div>
+              </div>
+            </div>
+            <center>
+              <div className="w-85 h-px bg-slate-300"></div>
+              <div className="h-48 overflow-hidden w-85 mt-7 hover:scale-x-110 hover:scale-y-110 duration-300 rounded-3xl">
+                <img
+                  src={Tas1}
+                  className="flex z-0 h-100 -translate-y-36 grayscale group-hover:grayscale-0 duration-300 hover:scale-x-110 hover:scale-y-110"
+                  alt="Tas1"
+                />
+              </div>
+            </center>
           </div>
-          <div className="bg-neutral-800 h-60 w-60 ml-10 rounded-3xl my-10 ">
-            <span></span>
+
+          <div className="bg-neutral-800 h-96 w-96 rounded-3xl my-5 ml-10 group hover:bg-neutral-900 duration-300">
+            <div className="flex px-7 py-7">
+              <div className="text-4xl text-white w-10 font-semibold">Tas</div>
+              <div className="text-4xl text-white font-semibold bg-neutral-500 group-hover:bg-white rounded-full ml-auto mr-0 h-16 w-16">
+                <div className="-rotate-45 align-middle text-center mt-2.5 -ml-1 group-hover:text-pink-500">
+                  ➜
+                </div>
+              </div>
+            </div>
+            <center>
+              <div className="w-85 h-px bg-slate-300"></div>
+              <div className="h-48 overflow-hidden w-85 mt-7 hover:scale-x-110 hover:scale-y-110 duration-300 rounded-3xl">
+                <img
+                  src={Tas1}
+                  className="flex z-0 h-100 -translate-y-36 grayscale group-hover:grayscale-0 duration-300 hover:scale-x-110 hover:scale-y-110"
+                  alt="Tas1"
+                />
+              </div>
+            </center>
           </div>
-          <div className="bg-neutral-800 h-60 w-60 ml-10 rounded-3xl my-10 ">
-            <span></span>
+
+          <div className="bg-neutral-800 h-96 w-96 rounded-3xl my-5 ml-10 group hover:bg-neutral-900 duration-300">
+            <div className="flex px-7 py-7">
+              <div className="text-4xl text-white w-10 font-semibold">Tas</div>
+              <div className="text-4xl text-white font-semibold bg-neutral-500 group-hover:bg-white rounded-full ml-auto mr-0 h-16 w-16">
+                <div className="-rotate-45 align-middle text-center mt-2.5 -ml-1 group-hover:text-pink-500">
+                  ➜
+                </div>
+              </div>
+            </div>
+            <center>
+              <div className="w-85 h-px bg-slate-300"></div>
+              <div className="h-48 overflow-hidden w-85 mt-7 hover:scale-x-110 hover:scale-y-110 duration-300 rounded-3xl">
+                <img
+                  src={Tas1}
+                  className="flex z-0 h-100 -translate-y-36 grayscale group-hover:grayscale-0 duration-300 hover:scale-x-110 hover:scale-y-110"
+                  alt="Tas1"
+                />
+              </div>
+            </center>
           </div>
-          <div className="bg-neutral-800 h-60 w-60 ml-10 rounded-3xl my-10 ">
-            <span></span>
+
+          <div className="bg-neutral-800 h-96 w-96 rounded-3xl my-5 ml-10 group hover:bg-neutral-900 duration-300">
+            <div className="flex px-7 py-7">
+              <div className="text-4xl text-white w-10 font-semibold">Tas</div>
+              <div className="text-4xl text-white font-semibold bg-neutral-500 group-hover:bg-white rounded-full ml-auto mr-0 h-16 w-16">
+                <div className="-rotate-45 align-middle text-center mt-2.5 -ml-1 group-hover:text-pink-500">
+                  ➜
+                </div>
+              </div>
+            </div>
+            <center>
+              <div className="w-85 h-px bg-slate-300"></div>
+              <div className="h-48 overflow-hidden w-85 mt-7 hover:scale-x-110 hover:scale-y-110 duration-300 rounded-3xl">
+                <img
+                  src={Tas1}
+                  className="flex z-0 h-100 -translate-y-36 grayscale group-hover:grayscale-0 duration-300 hover:scale-x-110 hover:scale-y-110"
+                  alt="Tas1"
+                />
+              </div>
+            </center>
+          </div>
+
+          <div className="bg-neutral-800 h-96 w-96 rounded-3xl my-5 ml-10 group hover:bg-neutral-900 duration-300">
+            <div className="flex px-7 py-7">
+              <div className="text-4xl text-white w-10 font-semibold">Tas</div>
+              <div className="text-4xl text-white font-semibold bg-neutral-500 group-hover:bg-white rounded-full ml-auto mr-0 h-16 w-16">
+                <div className="-rotate-45 align-middle text-center mt-2.5 -ml-1 group-hover:text-pink-500">
+                  ➜
+                </div>
+              </div>
+            </div>
+            <center>
+              <div className="w-85 h-px bg-slate-300"></div>
+              <div className="h-48 overflow-hidden w-85 mt-7 hover:scale-x-110 hover:scale-y-110 duration-300 rounded-3xl">
+                <img
+                  src={Tas1}
+                  className="flex z-0 h-100 -translate-y-36 grayscale group-hover:grayscale-0 duration-300 hover:scale-x-110 hover:scale-y-110"
+                  alt="Tas1"
+                />
+              </div>
+            </center>
           </div>
         </div>
       </div>

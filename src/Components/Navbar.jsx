@@ -14,7 +14,7 @@ export default function Navbar() {
 
   return (
     <>
-      <div className="sticky shadow-md top-0 justify-between py-5 w-100 bg-white flex">
+      <div className="sticky shadow-md top-0 z-50 justify-between py-5 w-100 bg-white flex">
         <ul className="ml-5">
           <li className="mr-5">
             <img src={Logo} alt="logo" className="w-24" />

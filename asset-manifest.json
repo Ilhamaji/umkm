@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/umkm/static/css/main.36c343a7.css",
-    "main.js": "/umkm/static/js/main.fe0802f7.js",
+    "main.css": "/umkm/static/css/main.f2fa0fff.css",
+    "main.js": "/umkm/static/js/main.a293106f.js",
     "static/js/787.ce240d17.chunk.js": "/umkm/static/js/787.ce240d17.chunk.js",
     "static/media/aksesoris-1.jpeg": "/umkm/static/media/aksesoris-1.a6b17fabd1ff318f8477.jpeg",
     "static/media/tas-1.jpeg": "/umkm/static/media/tas-1.a0068159686f167f3a1f.jpeg",
@@ -13,12 +13,12 @@
     "static/media/stack.svg": "/umkm/static/media/stack.41c976281133af4cf4992bbb07f52f07.svg",
     "static/media/blob-scene-haikei.svg": "/umkm/static/media/blob-scene-haikei.97eb6c52f97262861d53.svg",
     "index.html": "/umkm/index.html",
-    "main.36c343a7.css.map": "/umkm/static/css/main.36c343a7.css.map",
-    "main.fe0802f7.js.map": "/umkm/static/js/main.fe0802f7.js.map",
+    "main.f2fa0fff.css.map": "/umkm/static/css/main.f2fa0fff.css.map",
+    "main.a293106f.js.map": "/umkm/static/js/main.a293106f.js.map",
     "787.ce240d17.chunk.js.map": "/umkm/static/js/787.ce240d17.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.36c343a7.css",
-    "static/js/main.fe0802f7.js"
+    "static/css/main.f2fa0fff.css",
+    "static/js/main.a293106f.js"
   ]
 }

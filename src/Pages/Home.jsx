@@ -64,7 +64,7 @@ export default function Home() {
             <div className="flex px-7 py-7">
               <div className="text-4xl text-white w-10 font-semibold">Tas</div>
               <div className="text-4xl text-white font-semibold bg-neutral-500 group-hover:bg-white rounded-full ml-auto mr-0 h-16 w-16">
-                <div className="-rotate-45 align-middle text-center mt-2.5 -ml-1 group-hover:text-pink-500">
+                <div className="-rotate-45 align-middle text-center mt-3 ml-1 md:mt-2.5 md:-ml-1 group-hover:text-pink-500">
                   ➜
                 </div>
               </div>
@@ -85,7 +85,7 @@ export default function Home() {
             <div className="flex px-7 py-7">
               <div className="text-4xl text-white w-10 font-semibold">Tas</div>
               <div className="text-4xl text-white font-semibold bg-neutral-500 group-hover:bg-white rounded-full ml-auto mr-0 h-16 w-16">
-                <div className="-rotate-45 align-middle text-center mt-2.5 -ml-1 group-hover:text-pink-500">
+                <div className="-rotate-45 align-middle text-center mt-3 ml-1 md:mt-2.5 md:-ml-1 group-hover:text-pink-500">
                   ➜
                 </div>
               </div>
@@ -106,7 +106,7 @@ export default function Home() {
             <div className="flex px-7 py-7">
               <div className="text-4xl text-white w-10 font-semibold">Tas</div>
               <div className="text-4xl text-white font-semibold bg-neutral-500 group-hover:bg-white rounded-full ml-auto mr-0 h-16 w-16">
-                <div className="-rotate-45 align-middle text-center mt-2.5 -ml-1 group-hover:text-pink-500">
+                <div className="-rotate-45 align-middle text-center mt-3 ml-1 md:mt-2.5 md:-ml-1 group-hover:text-pink-500">
                   ➜
                 </div>
               </div>
@@ -127,7 +127,7 @@ export default function Home() {
             <div className="flex px-7 py-7">
               <div className="text-4xl text-white w-10 font-semibold">Tas</div>
               <div className="text-4xl text-white font-semibold bg-neutral-500 group-hover:bg-white rounded-full ml-auto mr-0 h-16 w-16">
-                <div className="-rotate-45 align-middle text-center mt-2.5 -ml-1 group-hover:text-pink-500">
+                <div className="-rotate-45 align-middle text-center mt-3 ml-1 md:mt-2.5 md:-ml-1 group-hover:text-pink-500">
                   ➜
                 </div>
               </div>
@@ -148,7 +148,7 @@ export default function Home() {
             <div className="flex px-7 py-7">
               <div className="text-4xl text-white w-10 font-semibold">Tas</div>
               <div className="text-4xl text-white font-semibold bg-neutral-500 group-hover:bg-white rounded-full ml-auto mr-0 h-16 w-16">
-                <div className="-rotate-45 align-middle text-center mt-2.5 -ml-1 group-hover:text-pink-500">
+                <div className="-rotate-45 align-middle text-center mt-3 ml-1 md:mt-2.5 md:-ml-1 group-hover:text-pink-500">
                   ➜
                 </div>
               </div>

@@ -7,10 +7,10 @@ export default function Footer() {
   return (
     <>
       <img src={Stack} className="w-full" alt="" srcset="" />
-      <div className="bg-white pb-10">
+      <div className="bg-white pb-10 overflow-hidden">
         <div className="text-lg mx-5">Produk Kirei Galeri</div>
-        <div className="flex mx-5">
-          <div className="flex-none mr-10">
+        <div className="flex flex-wrap mx-5">
+          <div className="flex-none">
             <Link to="/product/tas" className="text-3xl hover:text-pink-500">
               Tas
             </Link>{" "}
@@ -31,9 +31,8 @@ export default function Footer() {
             <Link to="/product/tas" className="text-3xl hover:text-pink-500">
               Aksesoris
             </Link>
-            <br />
           </div>
-          <div className="flex-1">
+          <div className="flex mt-5 md:mt-0 md:ml-10">
             <table>
               <tr>
                 <td>Almat</td>
@@ -71,14 +70,14 @@ export default function Footer() {
                   :{" "}
                   <a
                     className="hover:text-pink-500"
-                    href="http://wa.me/082242059600"
+                    href="http://wa.me/6282242059600"
                   >
                     082242059600
                   </a>
                   {" atau "}
                   <a
                     className="hover:text-pink-500"
-                    href="http://wa.me/081329390862"
+                    href="http://wa.me/6281329390862"
                   >
                     081329390862
                   </a>
@@ -86,7 +85,7 @@ export default function Footer() {
               </tr>
             </table>
           </div>
-          <div className="flex-1">
+          <div className="flex mt-5 font-semibold">
             Kami bergerak di bidang kerajinan tangan dengan berbagai macam
             produk, seperti: tas, topi dan sepatu yang berbahan utama benang
             rajut. Selain itu kami juga memproduksi produk lain seperti bouquet

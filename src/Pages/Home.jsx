@@ -53,7 +53,7 @@ export default function Home() {
               <div className="h-48 overflow-hidden w-85 mt-7 hover:scale-x-110 hover:scale-y-110 duration-300 rounded-3xl">
                 <img
                   src={Tas1}
-                  className="flex z-0 h-100 -translate-y-36 grayscale group-hover:grayscale-0 duration-300 hover:scale-x-110 hover:scale-y-110"
+                  className="flex z-0 h-100 -translate-y-10 md:-translate-y-36 grayscale group-hover:grayscale-0 duration-300 hover:scale-x-110 hover:scale-y-110"
                   alt="Tas1"
                 />
               </div>
@@ -74,7 +74,7 @@ export default function Home() {
               <div className="h-48 overflow-hidden w-85 mt-7 hover:scale-x-110 hover:scale-y-110 duration-300 rounded-3xl">
                 <img
                   src={Tas1}
-                  className="flex z-0 h-100 -translate-y-36 grayscale group-hover:grayscale-0 duration-300 hover:scale-x-110 hover:scale-y-110"
+                  className="flex z-0 h-100 -translate-y-10 md:-translate-y-36 grayscale group-hover:grayscale-0 duration-300 hover:scale-x-110 hover:scale-y-110"
                   alt="Tas1"
                 />
               </div>
@@ -95,7 +95,7 @@ export default function Home() {
               <div className="h-48 overflow-hidden w-85 mt-7 hover:scale-x-110 hover:scale-y-110 duration-300 rounded-3xl">
                 <img
                   src={Tas1}
-                  className="flex z-0 h-100 -translate-y-36 grayscale group-hover:grayscale-0 duration-300 hover:scale-x-110 hover:scale-y-110"
+                  className="flex z-0 h-100 -translate-y-10 md:-translate-y-36 grayscale group-hover:grayscale-0 duration-300 hover:scale-x-110 hover:scale-y-110"
                   alt="Tas1"
                 />
               </div>
@@ -116,7 +116,7 @@ export default function Home() {
               <div className="h-48 overflow-hidden w-85 mt-7 hover:scale-x-110 hover:scale-y-110 duration-300 rounded-3xl">
                 <img
                   src={Tas1}
-                  className="flex z-0 h-100 -translate-y-36 grayscale group-hover:grayscale-0 duration-300 hover:scale-x-110 hover:scale-y-110"
+                  className="flex z-0 h-100 -translate-y-10 md:-translate-y-36 grayscale group-hover:grayscale-0 duration-300 hover:scale-x-110 hover:scale-y-110"
                   alt="Tas1"
                 />
               </div>
@@ -137,7 +137,7 @@ export default function Home() {
               <div className="h-48 overflow-hidden w-85 mt-7 hover:scale-x-110 hover:scale-y-110 duration-300 rounded-3xl">
                 <img
                   src={Tas1}
-                  className="flex z-0 h-100 -translate-y-36 grayscale group-hover:grayscale-0 duration-300 hover:scale-x-110 hover:scale-y-110"
+                  className="flex z-0 h-100 -translate-y-10 md:-translate-y-36 grayscale group-hover:grayscale-0 duration-300 hover:scale-x-110 hover:scale-y-110"
                   alt="Tas1"
                 />
               </div>
@@ -158,7 +158,7 @@ export default function Home() {
               <div className="h-48 overflow-hidden w-85 mt-7 hover:scale-x-110 hover:scale-y-110 duration-300 rounded-3xl">
                 <img
                   src={Tas1}
-                  className="flex z-0 h-100 -translate-y-36 grayscale group-hover:grayscale-0 duration-300 hover:scale-x-110 hover:scale-y-110"
+                  className="flex z-0 h-100 -translate-y-10 md:-translate-y-36 grayscale group-hover:grayscale-0 duration-300 hover:scale-x-110 hover:scale-y-110"
                   alt="Tas1"
                 />
               </div>

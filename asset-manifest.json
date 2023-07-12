@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/umkm/static/css/main.f2fa0fff.css",
-    "main.js": "/umkm/static/js/main.087a618e.js",
-    "static/js/787.ce240d17.chunk.js": "/umkm/static/js/787.ce240d17.chunk.js",
-    "static/media/aksesoris-1.jpeg": "/umkm/static/media/aksesoris-1.a6b17fabd1ff318f8477.jpeg",
-    "static/media/tas-1.jpeg": "/umkm/static/media/tas-1.a0068159686f167f3a1f.jpeg",
-    "static/media/bouquet-1.jpeg": "/umkm/static/media/bouquet-1.80c576bbff8a0c0cc69e.jpeg",
-    "static/media/topi-1.jpeg": "/umkm/static/media/topi-1.a9cf3e0e5117b82f588f.jpeg",
-    "static/media/logo-removebg.png": "/umkm/static/media/logo-removebg.8fd146e90629d116a509.png",
-    "static/media/dompet-1.jpeg": "/umkm/static/media/dompet-1.dbb8d637174ef28cde75.jpeg",
-    "static/media/sepatu-1.jpeg": "/umkm/static/media/sepatu-1.7a8bfbf5393315e58023.jpeg",
-    "static/media/stack.svg": "/umkm/static/media/stack.41c976281133af4cf4992bbb07f52f07.svg",
-    "static/media/blob-scene-haikei.svg": "/umkm/static/media/blob-scene-haikei.97eb6c52f97262861d53.svg",
-    "index.html": "/umkm/index.html",
-    "main.f2fa0fff.css.map": "/umkm/static/css/main.f2fa0fff.css.map",
-    "main.087a618e.js.map": "/umkm/static/js/main.087a618e.js.map",
-    "787.ce240d17.chunk.js.map": "/umkm/static/js/787.ce240d17.chunk.js.map"
+    "main.css": "./static/css/main.d82b078b.css",
+    "main.js": "./static/js/main.8429a431.js",
+    "static/js/787.ce240d17.chunk.js": "./static/js/787.ce240d17.chunk.js",
+    "static/media/aksesoris-1.jpeg": "./static/media/aksesoris-1.a6b17fabd1ff318f8477.jpeg",
+    "static/media/tas-1.jpeg": "./static/media/tas-1.a0068159686f167f3a1f.jpeg",
+    "static/media/bouquet-1.jpeg": "./static/media/bouquet-1.80c576bbff8a0c0cc69e.jpeg",
+    "static/media/topi-1.jpeg": "./static/media/topi-1.a9cf3e0e5117b82f588f.jpeg",
+    "static/media/logo-removebg.png": "./static/media/logo-removebg.8fd146e90629d116a509.png",
+    "static/media/dompet-1.jpeg": "./static/media/dompet-1.dbb8d637174ef28cde75.jpeg",
+    "static/media/sepatu-1.jpeg": "./static/media/sepatu-1.7a8bfbf5393315e58023.jpeg",
+    "static/media/stack.svg": "./static/media/stack.41c976281133af4cf4992bbb07f52f07.svg",
+    "static/media/blob-scene-haikei.svg": "./static/media/blob-scene-haikei.97eb6c52f97262861d53.svg",
+    "index.html": "./index.html",
+    "main.d82b078b.css.map": "./static/css/main.d82b078b.css.map",
+    "main.8429a431.js.map": "./static/js/main.8429a431.js.map",
+    "787.ce240d17.chunk.js.map": "./static/js/787.ce240d17.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f2fa0fff.css",
-    "static/js/main.087a618e.js"
+    "static/css/main.d82b078b.css",
+    "static/js/main.8429a431.js"
   ]
 }

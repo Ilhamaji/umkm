@@ -47,7 +47,7 @@ export default function Home() {
 
         <div className="flex flex-wrap justify-center w-100 mr-10 my-5 overflow-hidden">
           <Link to="/products/tas">
-            <div className="bg-neutral-800 cursor-pointer h-96 w-96 rounded-3xl my-5 ml-10 group hover:bg-neutral-900 duration-300">
+            <div className="bg-neutral-800 cursor-pointer h-96 w-96 rounded-3xl my-5 mx-5 group hover:bg-neutral-900 duration-300">
               <div className="flex px-7 py-7">
                 <div className="text-4xl text-white w-10 font-semibold">
                   Tas
@@ -72,7 +72,7 @@ export default function Home() {
           </Link>
 
           <Link to="/products/dompet">
-            <div className="bg-neutral-800 cursor-pointer h-96 w-96 rounded-3xl my-5 ml-10 group hover:bg-neutral-900 duration-300">
+            <div className="bg-neutral-800 cursor-pointer h-96 w-96 rounded-3xl my-5 mx-5 group hover:bg-neutral-900 duration-300">
               <div className="flex px-7 py-7">
                 <div className="text-4xl text-white w-10 font-semibold">
                   Dompet
@@ -97,7 +97,7 @@ export default function Home() {
           </Link>
 
           <Link to="/products/sepatu">
-            <div className="bg-neutral-800 cursor-pointer h-96 w-96 rounded-3xl my-5 ml-10 group hover:bg-neutral-900 duration-300">
+            <div className="bg-neutral-800 cursor-pointer h-96 w-96 rounded-3xl my-5 mx-5 group hover:bg-neutral-900 duration-300">
               <div className="flex px-7 py-7">
                 <div className="text-4xl text-white w-10 font-semibold">
                   Sepatu
@@ -122,7 +122,7 @@ export default function Home() {
           </Link>
 
           <Link to="/products/bouquet">
-            <div className="bg-neutral-800 cursor-pointer h-96 w-96 rounded-3xl my-5 ml-10 group hover:bg-neutral-900 duration-300">
+            <div className="bg-neutral-800 cursor-pointer h-96 w-96 rounded-3xl my-5 mx-5 group hover:bg-neutral-900 duration-300">
               <div className="flex px-7 py-7">
                 <div className="text-4xl text-white w-10 font-semibold">
                   Bouquet
@@ -147,7 +147,7 @@ export default function Home() {
           </Link>
 
           <Link to="/products/topi">
-            <div className="bg-neutral-800 cursor-pointer h-96 w-96 rounded-3xl my-5 ml-10 group hover:bg-neutral-900 duration-300">
+            <div className="bg-neutral-800 cursor-pointer h-96 w-96 rounded-3xl my-5 mx-5 group hover:bg-neutral-900 duration-300">
               <div className="flex px-7 py-7">
                 <div className="text-4xl text-white w-10 font-semibold">
                   Topi
@@ -172,7 +172,7 @@ export default function Home() {
           </Link>
 
           <Link to="/products/aksesoris">
-            <div className="bg-neutral-800 cursor-pointer h-96 w-96 rounded-3xl my-5 ml-10 group hover:bg-neutral-900 duration-300">
+            <div className="bg-neutral-800 cursor-pointer h-96 w-96 rounded-3xl my-5 mx-5 group hover:bg-neutral-900 duration-300">
               <div className="flex px-7 py-7">
                 <div className="text-4xl text-white w-10 font-semibold">
                   Aksesoris

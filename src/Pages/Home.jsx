@@ -36,14 +36,14 @@ export default function Home() {
 
       <div className="bg-neutral-950 rounded-3xl -mt-5 w-100 pb-5 md:mx-5">
         <div className="flex justify-between">
-          <div className="pt-10 pb-5 mx-10 text-white font-bold text-xl">
+          <div className="pt-10 pb-5 mx-5 md:mx-10 text-white font-bold text-xl">
             Produk Kita
           </div>
-          <div className="pt-10 pb-5 mx-10 w-60 text-right text-neutral-400">
+          <div className="pt-10 pb-5 mx-5 md:mx-10 w-60 text-right text-neutral-400">
             Berbagai macam kerajinan tangan yang dapat direquest
           </div>
         </div>
-        <div className="w-100 mx-10 border-b-1"></div>
+        <div className="w-100 mx-5 md:mx-10 border-b-1"></div>
 
         <div className="flex flex-wrap justify-center w-100 my-5 mx-5 overflow-hidden">
           <Link to="/products/tas">

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.da434e67.css",
-    "main.js": "./static/js/main.35d37ea0.js",
+    "main.css": "./static/css/main.afbbd8e7.css",
+    "main.js": "./static/js/main.380892c6.js",
     "static/js/787.ce240d17.chunk.js": "./static/js/787.ce240d17.chunk.js",
     "static/media/aksesoris-1.jpeg": "./static/media/aksesoris-1.a6b17fabd1ff318f8477.jpeg",
     "static/media/tas-1.jpeg": "./static/media/tas-1.a0068159686f167f3a1f.jpeg",
@@ -13,12 +13,12 @@
     "static/media/stack.svg": "./static/media/stack.997a0f6a0ab9cae2660beea6f98f0cfc.svg",
     "static/media/blob-scene-haikei.svg": "./static/media/blob-scene-haikei.97eb6c52f97262861d53.svg",
     "index.html": "./index.html",
-    "main.da434e67.css.map": "./static/css/main.da434e67.css.map",
-    "main.35d37ea0.js.map": "./static/js/main.35d37ea0.js.map",
+    "main.afbbd8e7.css.map": "./static/css/main.afbbd8e7.css.map",
+    "main.380892c6.js.map": "./static/js/main.380892c6.js.map",
     "787.ce240d17.chunk.js.map": "./static/js/787.ce240d17.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.da434e67.css",
-    "static/js/main.35d37ea0.js"
+    "static/css/main.afbbd8e7.css",
+    "static/js/main.380892c6.js"
   ]
 }

@@ -56,7 +56,7 @@ export default function Navbar() {
         </ul>
         <ul className="mr-5 hidden md:inline">
           <NavLink
-            to="/faq"
+            to="faq"
             className="transition hover:transition inline ml-5 border border-pink-500 rounded py-2 px-5 hover:cursor-pointer hover:bg-pink-500 hover:text-white"
           >
             FAQ

@@ -2,8 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Lobster&family=Pacifico&display=swap");
+* {
+  scroll-behavior: smooth;
+}
 body {
-  background-color: pink;
+  background-color: #ffc0cb;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
@@ -58,4 +61,17 @@ code {
 
 .w-90 {
   width: 90%;
+}
+
+.bg-main {
+  background-color: #e966a0;
+}
+.bg-second {
+  background-color: #2b2730;
+}
+.bg-third {
+  background-color: #6554af;
+}
+.bg-fourth {
+  background-color: #9575de;
 }

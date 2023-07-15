@@ -45,7 +45,7 @@ export default function Home() {
         </div>
         <div className="w-100 mx-10 border-b-1"></div>
 
-        <div className="flex flex-wrap justify-center w-100 mr-10 my-5 overflow-hidden">
+        <div className="flex flex-wrap justify-center w-100 my-5 overflow-hidden">
           <Link to="/products/tas">
             <div className="bg-neutral-800 cursor-pointer h-96 w-96 rounded-3xl my-5 mx-5 group hover:bg-neutral-900 duration-300">
               <div className="flex px-7 py-7">

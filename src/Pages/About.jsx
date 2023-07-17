@@ -8,8 +8,8 @@ export default function About() {
       <Navbar />
 
       <div className="flex w-full justify-center">
-        <div className="flex flex-wrap justify-center w-fit md:mx-10 mt-5 xl:mt-28 py-5 px-5 bg-neutral-950 rounded-3xl">
-          <div className="bg-neutral-800 cursor-default md:mx-10 py-7 h-fit w-96 rounded-3xl group">
+        <div className="flex flex-wrap justify-center mx-5 w-fit md:mx-10 mt-5 xl:mt-28 py-5 md:px-5 bg-neutral-950 rounded-3xl">
+          <div className="bg-neutral-800 cursor-default mx-5 md:mx-10 py-7 h-fit w-80 md:w-96 rounded-3xl group">
             <center>
               <div className="h-48 overflow-hidden w-85 duration-300 rounded-3xl">
                 <img

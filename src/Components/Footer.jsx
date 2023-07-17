@@ -45,7 +45,7 @@ export default function Footer() {
                 <td>
                   :{" "}
                   <a
-                    className="hover:text-pink-500"
+                    className="hover:text-pink-500 font-semibold"
                     href="https://www.facebook.com/profile.php?id=100009602703519"
                   >
                     Omah Rajut Kirei
@@ -57,7 +57,7 @@ export default function Footer() {
                 <td>
                   :{" "}
                   <a
-                    className="hover:text-pink-500"
+                    className="hover:text-pink-500 font-semibold"
                     href="http://instagram.com/kirei_galery"
                   >
                     kirei_galery
@@ -69,14 +69,14 @@ export default function Footer() {
                 <td>
                   :{" "}
                   <a
-                    className="hover:text-pink-500"
+                    className="hover:text-pink-500 font-semibold"
                     href="http://wa.me/6282242059600"
                   >
                     082242059600
                   </a>
                   {" atau "}
                   <a
-                    className="hover:text-pink-500"
+                    className="hover:text-pink-500 font-semibold"
                     href="http://wa.me/6281329390862"
                   >
                     081329390862

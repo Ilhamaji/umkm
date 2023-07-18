@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
@@ -10,6 +10,15 @@ import Topi1 from "../Assets/topi-1.jpeg";
 import Aksesoris1 from "../Assets/aksesoris-1.jpeg";
 
 export default function Home() {
+  const [items, setItems] = useState([
+    { gambar: Tas1, slug: "/products/tas" },
+    { gambar: Dompet1, slug: "/products/dompet" },
+    { gambar: Sepatu1, slug: "/products/sepatu" },
+    { gambar: Bouquet1, slug: "/products/bouquet" },
+    { gambar: Topi1, slug: "/products/topi" },
+    { gambar: Aksesoris1, slug: "/products/aksesoris" },
+  ]);
+
   return (
     <>
       <Navbar />
@@ -46,155 +55,34 @@ export default function Home() {
         <div className="w-100 mx-5 md:mx-10 border-b-1"></div>
 
         <div className="flex flex-wrap justify-center w-100 my-5 mx-5 overflow-hidden">
-          <Link to="/products/tas">
-            <div className="bg-neutral-800 cursor-pointer md:h-96 md:w-96 rounded-3xl my-5 mx-5 group hover:bg-neutral-900 duration-300">
-              <div className="flex px-7 py-7">
-                <div className="text-4xl text-white w-10 font-semibold">
-                  Tas
-                </div>
-                <div className="text-4xl text-white cursor-pointer font-semibold bg-neutral-500 group-hover:bg-white rounded-full ml-auto mr-0 h-16 w-16">
-                  <div className="-rotate-45 align-middle text-center mt-3 ml-1 md:mt-2.5 md:-ml-1 group-hover:rotate-0 duration-300 group-hover:text-pink-500">
-                    ➜
+          {items.map((item, i) => {
+            return (
+              <Link key={i} to={item.slug}>
+                <div className="bg-neutral-800 cursor-pointer md:h-96 md:w-96 rounded-3xl my-5 mx-5 group hover:bg-neutral-900 duration-300">
+                  <div className="flex px-7 py-7">
+                    <div className="text-4xl text-white w-10 font-semibold">
+                      Tas
+                    </div>
+                    <div className="text-4xl text-white cursor-pointer font-semibold bg-neutral-500 group-hover:bg-white rounded-full ml-auto mr-0 h-16 w-16">
+                      <div className="-rotate-45 align-middle text-center mt-3 ml-1 md:mt-2.5 md:-ml-1 group-hover:rotate-0 duration-300 group-hover:text-pink-500">
+                        ➜
+                      </div>
+                    </div>
                   </div>
+                  <center>
+                    <div className="w-85 h-px bg-slate-300"></div>
+                    <div className="h-48 overflow-hidden w-85 mt-7 hover:scale-x-110 hover:scale-y-110 duration-300 rounded-3xl">
+                      <img
+                        src={item.gambar}
+                        className="flex z-0 h-100 -translate-y-10 md:-translate-y-36 grayscale group-hover:grayscale-0 duration-300 hover:scale-x-110 hover:scale-y-110"
+                        alt="Tas1"
+                      />
+                    </div>
+                  </center>
                 </div>
-              </div>
-              <center>
-                <div className="w-85 h-px bg-slate-300"></div>
-                <div className="h-48 overflow-hidden w-85 mt-7 hover:scale-x-110 hover:scale-y-110 duration-300 rounded-3xl">
-                  <img
-                    src={Tas1}
-                    className="flex z-0 h-100 -translate-y-10 md:-translate-y-36 grayscale group-hover:grayscale-0 duration-300 hover:scale-x-110 hover:scale-y-110"
-                    alt="Tas1"
-                  />
-                </div>
-              </center>
-            </div>
-          </Link>
-
-          <Link to="/products/dompet">
-            <div className="bg-neutral-800 cursor-pointer md:h-96 md:w-96 rounded-3xl my-5 mx-5 group hover:bg-neutral-900 duration-300">
-              <div className="flex px-7 py-7">
-                <div className="text-4xl text-white w-10 font-semibold">
-                  Dompet
-                </div>
-                <div className="text-4xl text-white cursor-pointer font-semibold bg-neutral-500 group-hover:bg-white rounded-full ml-auto mr-0 h-16 w-16">
-                  <div className="-rotate-45 align-middle text-center mt-3 ml-1 md:mt-2.5 md:-ml-1 group-hover:rotate-0 duration-300 group-hover:text-pink-500">
-                    ➜
-                  </div>
-                </div>
-              </div>
-              <center>
-                <div className="w-85 h-px bg-slate-300"></div>
-                <div className="h-48 overflow-hidden w-85 mt-7 hover:scale-x-110 hover:scale-y-110 duration-300 rounded-3xl">
-                  <img
-                    src={Dompet1}
-                    className="flex z-0 h-100 -translate-y-10 md:-translate-y-36 grayscale group-hover:grayscale-0 duration-300 hover:scale-x-110 hover:scale-y-110"
-                    alt="Tas1"
-                  />
-                </div>
-              </center>
-            </div>
-          </Link>
-
-          <Link to="/products/sepatu">
-            <div className="bg-neutral-800 cursor-pointer md:h-96 md:w-96 rounded-3xl my-5 mx-5 group hover:bg-neutral-900 duration-300">
-              <div className="flex px-7 py-7">
-                <div className="text-4xl text-white w-10 font-semibold">
-                  Sepatu
-                </div>
-                <div className="text-4xl text-white cursor-pointer font-semibold bg-neutral-500 group-hover:bg-white rounded-full ml-auto mr-0 h-16 w-16">
-                  <div className="-rotate-45 align-middle text-center mt-3 ml-1 md:mt-2.5 md:-ml-1 group-hover:rotate-0 duration-300 group-hover:text-pink-500">
-                    ➜
-                  </div>
-                </div>
-              </div>
-              <center>
-                <div className="w-85 h-px bg-slate-300"></div>
-                <div className="h-48 overflow-hidden w-85 mt-7 hover:scale-x-110 hover:scale-y-110 duration-300 rounded-3xl">
-                  <img
-                    src={Sepatu1}
-                    className="flex z-0 h-100 -translate-y-10 md:-translate-y-36 grayscale group-hover:grayscale-0 duration-300 hover:scale-x-110 hover:scale-y-110"
-                    alt="Tas1"
-                  />
-                </div>
-              </center>
-            </div>
-          </Link>
-
-          <Link to="/products/bouquet">
-            <div className="bg-neutral-800 cursor-pointer md:h-96 md:w-96 rounded-3xl my-5 mx-5 group hover:bg-neutral-900 duration-300">
-              <div className="flex px-7 py-7">
-                <div className="text-4xl text-white w-10 font-semibold">
-                  Bouquet
-                </div>
-                <div className="text-4xl text-white cursor-pointer font-semibold bg-neutral-500 group-hover:bg-white rounded-full ml-auto mr-0 h-16 w-16">
-                  <div className="-rotate-45 align-middle text-center mt-3 ml-1 md:mt-2.5 md:-ml-1 group-hover:rotate-0 duration-300 group-hover:text-pink-500">
-                    ➜
-                  </div>
-                </div>
-              </div>
-              <center>
-                <div className="w-85 h-px bg-slate-300"></div>
-                <div className="h-48 overflow-hidden w-85 mt-7 hover:scale-x-110 hover:scale-y-110 duration-300 rounded-3xl">
-                  <img
-                    src={Bouquet1}
-                    className="flex z-0 h-100 -translate-y-10 md:-translate-y-36 grayscale group-hover:grayscale-0 duration-300 hover:scale-x-110 hover:scale-y-110"
-                    alt="Tas1"
-                  />
-                </div>
-              </center>
-            </div>
-          </Link>
-
-          <Link to="/products/topi">
-            <div className="bg-neutral-800 cursor-pointer md:h-96 md:w-96 rounded-3xl my-5 mx-5 group hover:bg-neutral-900 duration-300">
-              <div className="flex px-7 py-7">
-                <div className="text-4xl text-white w-10 font-semibold">
-                  Topi
-                </div>
-                <div className="text-4xl text-white cursor-pointer font-semibold bg-neutral-500 group-hover:bg-white rounded-full ml-auto mr-0 h-16 w-16">
-                  <div className="-rotate-45 align-middle text-center mt-3 ml-1 md:mt-2.5 md:-ml-1 group-hover:rotate-0 duration-300 group-hover:text-pink-500">
-                    ➜
-                  </div>
-                </div>
-              </div>
-              <center>
-                <div className="w-85 h-px bg-slate-300"></div>
-                <div className="h-48 overflow-hidden w-85 mt-7 hover:scale-x-110 hover:scale-y-110 duration-300 rounded-3xl">
-                  <img
-                    src={Topi1}
-                    className="flex z-0 h-100 -translate-y-10 md:-translate-y-36 grayscale group-hover:grayscale-0 duration-300 hover:scale-x-110 hover:scale-y-110"
-                    alt="Tas1"
-                  />
-                </div>
-              </center>
-            </div>
-          </Link>
-
-          <Link to="/products/aksesoris">
-            <div className="bg-neutral-800 cursor-pointer md:h-96 md:w-96 rounded-3xl my-5 mx-5 group hover:bg-neutral-900 duration-300">
-              <div className="flex px-7 py-7">
-                <div className="text-4xl text-white w-10 font-semibold">
-                  Aksesoris
-                </div>
-                <div className="text-4xl text-white cursor-pointer font-semibold bg-neutral-500 group-hover:bg-white rounded-full ml-auto mr-0 h-16 w-16">
-                  <div className="-rotate-45 align-middle text-center mt-3 ml-1 md:mt-2.5 md:-ml-1 group-hover:rotate-0 duration-300 group-hover:text-pink-500">
-                    ➜
-                  </div>
-                </div>
-              </div>
-              <center>
-                <div className="w-85 h-px bg-slate-300"></div>
-                <div className="h-48 overflow-hidden w-85 mt-7 hover:scale-x-110 hover:scale-y-110 duration-300 rounded-3xl">
-                  <img
-                    src={Aksesoris1}
-                    className="flex z-0 h-100 -translate-y-10 md:-translate-y-36 grayscale group-hover:grayscale-0 duration-300 hover:scale-x-110 hover:scale-y-110"
-                    alt="Tas1"
-                  />
-                </div>
-              </center>
-            </div>
-          </Link>
+              </Link>
+            );
+          })}
         </div>
       </div>
       <Footer />

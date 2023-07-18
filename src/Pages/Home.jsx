@@ -11,12 +11,12 @@ import Aksesoris1 from "../Assets/aksesoris-1.jpeg";
 
 export default function Home() {
   const [items, setItems] = useState([
-    { gambar: Tas1, slug: "/products/tas" },
-    { gambar: Dompet1, slug: "/products/dompet" },
-    { gambar: Sepatu1, slug: "/products/sepatu" },
-    { gambar: Bouquet1, slug: "/products/bouquet" },
-    { gambar: Topi1, slug: "/products/topi" },
-    { gambar: Aksesoris1, slug: "/products/aksesoris" },
+    { jenis: "Tas", gambar: Tas1, slug: "/products/tas" },
+    { jenis: "Dompet", gambar: Dompet1, slug: "/products/dompet" },
+    { jenis: "Sepatu", gambar: Sepatu1, slug: "/products/sepatu" },
+    { jenis: "Bouquet", gambar: Bouquet1, slug: "/products/bouquet" },
+    { jenis: "Topi", gambar: Topi1, slug: "/products/topi" },
+    { jenis: "Aksesoris", gambar: Aksesoris1, slug: "/products/aksesoris" },
   ]);
 
   return (
@@ -61,7 +61,7 @@ export default function Home() {
                 <div className="bg-neutral-800 cursor-pointer md:h-96 md:w-96 rounded-3xl my-5 mx-5 group hover:bg-neutral-900 duration-300">
                   <div className="flex px-7 py-7">
                     <div className="text-4xl text-white w-10 font-semibold">
-                      Tas
+                      {item.jenis}
                     </div>
                     <div className="text-4xl text-white cursor-pointer font-semibold bg-neutral-500 group-hover:bg-white rounded-full ml-auto mr-0 h-16 w-16">
                       <div className="-rotate-45 align-middle text-center mt-3 ml-1 md:mt-2.5 md:-ml-1 group-hover:rotate-0 duration-300 group-hover:text-pink-500">

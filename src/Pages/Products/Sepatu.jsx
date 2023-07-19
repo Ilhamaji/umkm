@@ -24,6 +24,11 @@ export default function Sepatu() {
   return (
     <>
       <Navbar />
+      <center>
+        <div className="text-5xl rounded-lg py-2 text-center my-5 w-60 bg-neutral-950 font-bold text-white">
+          Sepatu
+        </div>
+      </center>
       {loading ? (
         <div className="flex justify-center">
           <div className="animate-spin bg-black w-12 h-12 text-center align-middle rounded-full text-4xl bold text-white">

@@ -24,7 +24,11 @@ export default function Products() {
     <>
       <Navbar />
 
-      <h1>Aksesoris</h1>
+      <center>
+        <div className="text-5xl rounded-lg py-2 text-center my-5 w-60 bg-neutral-950 font-bold text-white">
+          Aksesoris
+        </div>
+      </center>
       <div className="mx-5 flex flex-wrap justify-center">
         {products.map(({ id, name, slug, image }) => {
           if (name === "Aksesoris") {
@@ -67,7 +71,11 @@ export default function Products() {
         })}
       </div>
 
-      <h1>Bouquet</h1>
+      <center>
+        <div className="text-5xl rounded-lg py-2 text-center my-5 w-60 bg-neutral-950 font-bold text-white">
+          Bouquet
+        </div>
+      </center>
       <div className="mx-5 flex flex-wrap justify-center">
         {products.map(({ id, name, slug, image }) => {
           if (name === "Bouquet") {
@@ -110,7 +118,11 @@ export default function Products() {
         })}
       </div>
 
-      <h1>Dompet</h1>
+      <center>
+        <div className="text-5xl rounded-lg py-2 text-center my-5 w-60 bg-neutral-950 font-bold text-white">
+          Dompet
+        </div>
+      </center>
       <div className="mx-5 flex flex-wrap justify-center">
         {products.map(({ id, name, slug, image }) => {
           if (name === "Dompet") {
@@ -153,7 +165,11 @@ export default function Products() {
         })}
       </div>
 
-      <h1>Sepatu</h1>
+      <center>
+        <div className="text-5xl rounded-lg py-2 text-center my-5 w-60 bg-neutral-950 font-bold text-white">
+          Sepatu
+        </div>
+      </center>
       <div className="mx-5 flex flex-wrap justify-center">
         {products.map(({ id, name, slug, image }) => {
           if (name === "Sepatu") {
@@ -196,7 +212,11 @@ export default function Products() {
         })}
       </div>
 
-      <h1>Tas</h1>
+      <center>
+        <div className="text-5xl rounded-lg py-2 text-center my-5 w-60 bg-neutral-950 font-bold text-white">
+          Tas
+        </div>
+      </center>
       <div className="mx-5 flex flex-wrap justify-center">
         {products.map(({ id, name, slug, image }) => {
           if (name === "Tas") {
@@ -239,7 +259,11 @@ export default function Products() {
         })}
       </div>
 
-      <h1>Topi</h1>
+      <center>
+        <div className="text-5xl rounded-lg py-2 text-center my-5 w-60 bg-neutral-950 font-bold text-white">
+          Topi
+        </div>
+      </center>
       <div className="mx-5 flex flex-wrap justify-center">
         {products.map(({ id, name, slug, image }) => {
           if (name === "Topi") {

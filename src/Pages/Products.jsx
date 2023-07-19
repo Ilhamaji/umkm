@@ -43,7 +43,10 @@ import Topi4 from "../Assets/Products/Topi/topi (4).jpg";
 import Topi5 from "../Assets/Products/Topi/topi (5).jpg";
 import Topi6 from "../Assets/Products/Topi/topi (6).jpg";
 
-import { LazyLoadImage } from "react-lazy-load-image-component";
+import Blob from "../Assets/blob-scene-haikei.svg";
+
+import { LazyLoadComponent, img } from "react-lazy-load-image-component";
+import LazyLoad from "react-lazy-load";
 
 export default function Products() {
   const [items, setItems] = useState([
@@ -104,14 +107,18 @@ export default function Products() {
                 className="bg-neutral-800 cursor-default py-7 h-fit w-96 rounded-3xl my-5 mx-5 shadow-lg shadow-pink-500 group"
               >
                 <center>
-                  <div className="h-48 overflow-hidden w-85 duration-300 rounded-3xl">
-                    <LazyLoadImage
-                      effect="blur"
+                  <LazyLoad
+                    effect="blur"
+                    placeholder={Blob}
+                    className="h-48 overflow-hidden w-85 duration-300 rounded-3xl"
+                  >
+                    <img
                       src={item.gambar}
                       className="flex z-0 h-100 -translate-y-10 md:-translate-y-36 group-hover:scale-150 duration-300"
-                      alt="Tas1"
+                      alt={i}
+                      placeholder={Blob}
                     />
-                  </div>
+                  </LazyLoad>
 
                   <div className="w-85 h-px my-5 bg-slate-300"></div>
                   <div className="flex justify-between px-7">
@@ -141,14 +148,13 @@ export default function Products() {
                 className="bg-neutral-800 cursor-default py-7 h-fit w-96 rounded-3xl my-5 mx-5 shadow-lg shadow-pink-500 group"
               >
                 <center>
-                  <div className="h-48 overflow-hidden w-85 duration-300 rounded-3xl">
-                    <LazyLoadImage
-                      effect="blur"
+                  <LazyLoad className="h-48 overflow-hidden w-85 duration-300 rounded-3xl">
+                    <img
                       src={item.gambar}
                       className="flex z-0 h-100 -translate-y-10 md:-translate-y-36 group-hover:scale-150 duration-300"
-                      alt="Tas1"
+                      alt={i}
                     />
-                  </div>
+                  </LazyLoad>
 
                   <div className="w-85 h-px my-5 bg-slate-300"></div>
                   <div className="flex justify-between px-7">
@@ -178,14 +184,13 @@ export default function Products() {
                 className="bg-neutral-800 cursor-default py-7 h-fit w-96 rounded-3xl my-5 mx-5 shadow-lg shadow-pink-500 group"
               >
                 <center>
-                  <div className="h-48 overflow-hidden w-85 duration-300 rounded-3xl">
-                    <LazyLoadImage
-                      effect="blur"
+                  <LazyLoad className="h-48 overflow-hidden w-85 duration-300 rounded-3xl">
+                    <img
                       src={item.gambar}
                       className="flex z-0 h-100 -translate-y-10 md:-translate-y-36 group-hover:scale-150 duration-300"
-                      alt="Tas1"
+                      alt={i}
                     />
-                  </div>
+                  </LazyLoad>
 
                   <div className="w-85 h-px my-5 bg-slate-300"></div>
                   <div className="flex justify-between px-7">
@@ -215,14 +220,13 @@ export default function Products() {
                 className="bg-neutral-800 cursor-default py-7 h-fit w-96 rounded-3xl my-5 mx-5 shadow-lg shadow-pink-500 group"
               >
                 <center>
-                  <div className="h-48 overflow-hidden w-85 duration-300 rounded-3xl">
-                    <LazyLoadImage
-                      effect="blur"
+                  <LazyLoad className="h-48 overflow-hidden w-85 duration-300 rounded-3xl">
+                    <img
                       src={item.gambar}
                       className="flex z-0 h-100 -translate-y-10 md:-translate-y-36 group-hover:scale-150 duration-300"
-                      alt="Tas1"
+                      alt={i}
                     />
-                  </div>
+                  </LazyLoad>
 
                   <div className="w-85 h-px my-5 bg-slate-300"></div>
                   <div className="flex justify-between px-7">
@@ -252,14 +256,13 @@ export default function Products() {
                 className="bg-neutral-800 cursor-default py-7 h-fit w-96 rounded-3xl my-5 mx-5 shadow-lg shadow-pink-500 group"
               >
                 <center>
-                  <div className="h-48 overflow-hidden w-85 duration-300 rounded-3xl">
-                    <LazyLoadImage
-                      effect="blur"
+                  <LazyLoad className="h-48 overflow-hidden w-85 duration-300 rounded-3xl">
+                    <img
                       src={item.gambar}
                       className="flex z-0 h-100 -translate-y-10 md:-translate-y-36 group-hover:scale-150 duration-300"
-                      alt="Tas1"
+                      alt={i}
                     />
-                  </div>
+                  </LazyLoad>
 
                   <div className="w-85 h-px my-5 bg-slate-300"></div>
                   <div className="flex justify-between px-7">
@@ -289,14 +292,13 @@ export default function Products() {
                 className="bg-neutral-800 cursor-default py-7 h-fit w-96 rounded-3xl my-5 mx-5 shadow-lg shadow-pink-500 group"
               >
                 <center>
-                  <div className="h-48 overflow-hidden w-85 duration-300 rounded-3xl">
-                    <LazyLoadImage
-                      effect="blur"
+                  <LazyLoad className="h-48 overflow-hidden w-85 duration-300 rounded-3xl">
+                    <img
                       src={item.gambar}
                       className="flex z-0 h-100 -translate-y-10 md:-translate-y-36 group-hover:scale-150 duration-300"
-                      alt="Tas1"
+                      alt={i}
                     />
-                  </div>
+                  </LazyLoad>
 
                   <div className="w-85 h-px my-5 bg-slate-300"></div>
                   <div className="flex justify-between px-7">

@@ -6,7 +6,7 @@ export default function Footer() {
   let copyright = String.fromCodePoint(0x00a9);
   return (
     <>
-      <img src={Stack} className="w-full" />
+      <img src={Stack} alt={Stack} className="w-full" />
       <div className="bg-white pb-10 overflow-hidden">
         <div className="text-lg mx-5">Produk Kirei Galeri</div>
         <div className="flex flex-wrap mx-5">

@@ -85,7 +85,7 @@ export default function Home() {
                         <img
                           src={process.env.PUBLIC_URL + `${image}`}
                           className="flex z-0 h-100 -translate-y-10 md:-translate-y-36 grayscale group-hover:grayscale-0 duration-300 hover:scale-x-110 hover:scale-y-110"
-                          alt="Tas1"
+                          alt="image"
                         />
                       </div>
                     </center>

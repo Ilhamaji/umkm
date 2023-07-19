@@ -42,6 +42,7 @@ import Topi3 from "../Assets/Products/Topi/topi (3).jpg";
 import Topi4 from "../Assets/Products/Topi/topi (4).jpg";
 import Topi5 from "../Assets/Products/Topi/topi (5).jpg";
 import Topi6 from "../Assets/Products/Topi/topi (6).jpg";
+import LazyLoadImage from "react-lazy-load";
 
 export default function Products() {
   const [items, setItems] = useState([
@@ -100,7 +101,8 @@ export default function Products() {
               <div className="bg-neutral-800 cursor-default py-7 h-fit w-96 rounded-3xl my-5 mx-5 shadow-lg shadow-pink-500 group">
                 <center>
                   <div className="h-48 overflow-hidden w-85 duration-300 rounded-3xl">
-                    <img
+                    <LazyLoadImage
+                      effect="blur"
                       src={item.gambar}
                       className="flex z-0 h-100 -translate-y-10 md:-translate-y-36 group-hover:scale-150 duration-300"
                       alt="Tas1"
@@ -133,7 +135,8 @@ export default function Products() {
               <div className="bg-neutral-800 cursor-default py-7 h-fit w-96 rounded-3xl my-5 mx-5 shadow-lg shadow-pink-500 group">
                 <center>
                   <div className="h-48 overflow-hidden w-85 duration-300 rounded-3xl">
-                    <img
+                    <LazyLoadImage
+                      effect="blur"
                       src={item.gambar}
                       className="flex z-0 h-100 -translate-y-10 md:-translate-y-36 group-hover:scale-150 duration-300"
                       alt="Tas1"
@@ -166,7 +169,8 @@ export default function Products() {
               <div className="bg-neutral-800 cursor-default py-7 h-fit w-96 rounded-3xl my-5 mx-5 shadow-lg shadow-pink-500 group">
                 <center>
                   <div className="h-48 overflow-hidden w-85 duration-300 rounded-3xl">
-                    <img
+                    <LazyLoadImage
+                      effect="blur"
                       src={item.gambar}
                       className="flex z-0 h-100 -translate-y-10 md:-translate-y-36 group-hover:scale-150 duration-300"
                       alt="Tas1"
@@ -199,7 +203,8 @@ export default function Products() {
               <div className="bg-neutral-800 cursor-default py-7 h-fit w-96 rounded-3xl my-5 mx-5 shadow-lg shadow-pink-500 group">
                 <center>
                   <div className="h-48 overflow-hidden w-85 duration-300 rounded-3xl">
-                    <img
+                    <LazyLoadImage
+                      effect="blur"
                       src={item.gambar}
                       className="flex z-0 h-100 -translate-y-10 md:-translate-y-36 group-hover:scale-150 duration-300"
                       alt="Tas1"
@@ -232,7 +237,8 @@ export default function Products() {
               <div className="bg-neutral-800 cursor-default py-7 h-fit w-96 rounded-3xl my-5 mx-5 shadow-lg shadow-pink-500 group">
                 <center>
                   <div className="h-48 overflow-hidden w-85 duration-300 rounded-3xl">
-                    <img
+                    <LazyLoadImage
+                      effect="blur"
                       src={item.gambar}
                       className="flex z-0 h-100 -translate-y-10 md:-translate-y-36 group-hover:scale-150 duration-300"
                       alt="Tas1"
@@ -265,8 +271,8 @@ export default function Products() {
               <div className="bg-neutral-800 cursor-default py-7 h-fit w-96 rounded-3xl my-5 mx-5 shadow-lg shadow-pink-500 group">
                 <center>
                   <div className="h-48 overflow-hidden w-85 duration-300 rounded-3xl">
-                    <img
-                      loading="lazy"
+                    <LazyLoadImage
+                      effect="blur"
                       src={item.gambar}
                       className="flex z-0 h-100 -translate-y-10 md:-translate-y-36 group-hover:scale-150 duration-300"
                       alt="Tas1"

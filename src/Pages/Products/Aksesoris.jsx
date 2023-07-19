@@ -25,7 +25,9 @@ export default function Aksesoris() {
       <Navbar />
       {loading ? (
         <div className="flex justify-center">
-          <div className="animate-spin text-4xl bold text-white">↻</div>
+          <div className="animate-spin bg-black px-5 py-5 rounded-full text-4xl bold text-white">
+            ↻
+          </div>
         </div>
       ) : (
         <div className="mx-5 flex flex-wrap justify-center">

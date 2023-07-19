@@ -9,8 +9,8 @@ import Dompet from "./Pages/Products/Dompet";
 import Bouquet from "./Pages/Products/Bouquet";
 import Topi from "./Pages/Products/Topi";
 import Aksesoris from "./Pages/Products/Aksesoris";
+import Tas from "./Pages/Products/Tas";
 const LazyProducts = React.lazy(() => import("./Pages/Products"));
-const LazyTas = React.lazy(() => import("./Pages/Products/Tas"));
 
 function App() {
   return (
@@ -26,14 +26,7 @@ function App() {
             </React.Suspense>
           }
         />
-        <Route
-          path="/products/tas"
-          element={
-            <React.Suspense fallback="Loading...">
-              <LazyTas />
-            </React.Suspense>
-          }
-        />
+        <Route path="/products/tas" element={<Tas />} />
         <Route path="/products/sepatu" element={<Sepatu />} />
         <Route path="/products/dompet" element={<Dompet />} />
         <Route path="/products/topi" element={<Topi />} />

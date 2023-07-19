@@ -1,0 +1,33 @@
+[
+  { "id": 1, "jenis": "Tas", "image": "/tas-1.jpeg", "slug": "/products/tas" },
+  {
+    "id": 2,
+    "jenis": "Dompet",
+    "image": "/dompet-1.jpeg",
+    "slug": "/products/dompet"
+  },
+  {
+    "id": 3,
+    "jenis": "Sepatu",
+    "image": "/sepatu-1.jpeg",
+    "slug": "/products/sepatu"
+  },
+  {
+    "id": 4,
+    "jenis": "Bouquet",
+    "image": "/bouquet-1.jpeg",
+    "slug": "/products/bouquet"
+  },
+  {
+    "id": 5,
+    "jenis": "Topi",
+    "image": "/topi-1.jpeg",
+    "slug": "/products/topi"
+  },
+  {
+    "id": 6,
+    "jenis": "Aksesoris",
+    "image": "/aksesoris-1.jpeg",
+    "slug": "/products/aksesoris"
+  }
+]

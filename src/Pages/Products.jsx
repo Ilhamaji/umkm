@@ -25,7 +25,7 @@ export default function Products() {
       <Navbar />
 
       <center>
-        <div className="text-5xl rounded-lg py-2 text-center my-5 w-60 bg-neutral-950 font-bold text-white">
+        <div className="text-5xl rounded-lg py-2 text-center my-5 w-60 bg-neutral-800 font-bold text-white">
           Aksesoris
         </div>
       </center>
@@ -72,7 +72,7 @@ export default function Products() {
       </div>
 
       <center>
-        <div className="text-5xl rounded-lg py-2 text-center my-5 w-60 bg-neutral-950 font-bold text-white">
+        <div className="text-5xl rounded-lg py-2 text-center my-5 w-60 bg-neutral-800 font-bold text-white">
           Bouquet
         </div>
       </center>
@@ -119,7 +119,7 @@ export default function Products() {
       </div>
 
       <center>
-        <div className="text-5xl rounded-lg py-2 text-center my-5 w-60 bg-neutral-950 font-bold text-white">
+        <div className="text-5xl rounded-lg py-2 text-center my-5 w-60 bg-neutral-800 font-bold text-white">
           Dompet
         </div>
       </center>
@@ -166,7 +166,7 @@ export default function Products() {
       </div>
 
       <center>
-        <div className="text-5xl rounded-lg py-2 text-center my-5 w-60 bg-neutral-950 font-bold text-white">
+        <div className="text-5xl rounded-lg py-2 text-center my-5 w-60 bg-neutral-800 font-bold text-white">
           Sepatu
         </div>
       </center>
@@ -213,7 +213,7 @@ export default function Products() {
       </div>
 
       <center>
-        <div className="text-5xl rounded-lg py-2 text-center my-5 w-60 bg-neutral-950 font-bold text-white">
+        <div className="text-5xl rounded-lg py-2 text-center my-5 w-60 bg-neutral-800 font-bold text-white">
           Tas
         </div>
       </center>
@@ -260,7 +260,7 @@ export default function Products() {
       </div>
 
       <center>
-        <div className="text-5xl rounded-lg py-2 text-center my-5 w-60 bg-neutral-950 font-bold text-white">
+        <div className="text-5xl rounded-lg py-2 text-center my-5 w-60 bg-neutral-800 font-bold text-white">
           Topi
         </div>
       </center>

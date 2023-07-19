@@ -42,7 +42,8 @@ import Topi3 from "../Assets/Products/Topi/topi (3).jpg";
 import Topi4 from "../Assets/Products/Topi/topi (4).jpg";
 import Topi5 from "../Assets/Products/Topi/topi (5).jpg";
 import Topi6 from "../Assets/Products/Topi/topi (6).jpg";
-import LazyLoadImage from "react-lazy-load";
+
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export default function Products() {
   const [items, setItems] = useState([
@@ -98,7 +99,10 @@ export default function Products() {
         {items.map((item, i) => {
           if (item.nama === "Aksesoris") {
             return (
-              <div className="bg-neutral-800 cursor-default py-7 h-fit w-96 rounded-3xl my-5 mx-5 shadow-lg shadow-pink-500 group">
+              <div
+                key={i}
+                className="bg-neutral-800 cursor-default py-7 h-fit w-96 rounded-3xl my-5 mx-5 shadow-lg shadow-pink-500 group"
+              >
                 <center>
                   <div className="h-48 overflow-hidden w-85 duration-300 rounded-3xl">
                     <LazyLoadImage
@@ -132,7 +136,10 @@ export default function Products() {
         {items.map((item, i) => {
           if (item.nama === "Bouquet") {
             return (
-              <div className="bg-neutral-800 cursor-default py-7 h-fit w-96 rounded-3xl my-5 mx-5 shadow-lg shadow-pink-500 group">
+              <div
+                key={i}
+                className="bg-neutral-800 cursor-default py-7 h-fit w-96 rounded-3xl my-5 mx-5 shadow-lg shadow-pink-500 group"
+              >
                 <center>
                   <div className="h-48 overflow-hidden w-85 duration-300 rounded-3xl">
                     <LazyLoadImage
@@ -166,7 +173,10 @@ export default function Products() {
         {items.map((item, i) => {
           if (item.nama === "Dompet") {
             return (
-              <div className="bg-neutral-800 cursor-default py-7 h-fit w-96 rounded-3xl my-5 mx-5 shadow-lg shadow-pink-500 group">
+              <div
+                key={i}
+                className="bg-neutral-800 cursor-default py-7 h-fit w-96 rounded-3xl my-5 mx-5 shadow-lg shadow-pink-500 group"
+              >
                 <center>
                   <div className="h-48 overflow-hidden w-85 duration-300 rounded-3xl">
                     <LazyLoadImage
@@ -200,7 +210,10 @@ export default function Products() {
         {items.map((item, i) => {
           if (item.nama === "Sepatu") {
             return (
-              <div className="bg-neutral-800 cursor-default py-7 h-fit w-96 rounded-3xl my-5 mx-5 shadow-lg shadow-pink-500 group">
+              <div
+                key={i}
+                className="bg-neutral-800 cursor-default py-7 h-fit w-96 rounded-3xl my-5 mx-5 shadow-lg shadow-pink-500 group"
+              >
                 <center>
                   <div className="h-48 overflow-hidden w-85 duration-300 rounded-3xl">
                     <LazyLoadImage
@@ -234,7 +247,10 @@ export default function Products() {
         {items.map((item, i) => {
           if (item.nama === "Tas") {
             return (
-              <div className="bg-neutral-800 cursor-default py-7 h-fit w-96 rounded-3xl my-5 mx-5 shadow-lg shadow-pink-500 group">
+              <div
+                key={i}
+                className="bg-neutral-800 cursor-default py-7 h-fit w-96 rounded-3xl my-5 mx-5 shadow-lg shadow-pink-500 group"
+              >
                 <center>
                   <div className="h-48 overflow-hidden w-85 duration-300 rounded-3xl">
                     <LazyLoadImage
@@ -268,7 +284,10 @@ export default function Products() {
         {items.map((item, i) => {
           if (item.nama === "Topi") {
             return (
-              <div className="bg-neutral-800 cursor-default py-7 h-fit w-96 rounded-3xl my-5 mx-5 shadow-lg shadow-pink-500 group">
+              <div
+                key={i}
+                className="bg-neutral-800 cursor-default py-7 h-fit w-96 rounded-3xl my-5 mx-5 shadow-lg shadow-pink-500 group"
+              >
                 <center>
                   <div className="h-48 overflow-hidden w-85 duration-300 rounded-3xl">
                     <LazyLoadImage

@@ -55,9 +55,12 @@ export default function Bouquet() {
                       <div className="text-lg sm:text-4xl text-white w-10 font-semibold">
                         {name}
                       </div>
-                      <div className="py-2 w-30 sm:w-40 text-xs px-5 sm:px-0 sm:text-base shadow-md shadow-pink-500 hover:shadow-none hover:bg-neutral-300 font-semibold rounded-3xl bg-white cursor-pointer duration-200">
+                      <Link
+                        to="http://wa.me/6281329390862"
+                        className="py-2 w-30 sm:w-40 text-xs px-5 sm:px-0 sm:text-base shadow-md shadow-pink-500 hover:shadow-none hover:bg-neutral-300 font-semibold rounded-3xl bg-white cursor-pointer duration-200"
+                      >
                         🛒 Beli Sekarang
-                      </div>
+                      </Link>
                     </div>
                   </center>
                 </div>

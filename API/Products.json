@@ -1,0 +1,223 @@
+[
+  {
+    "id": 1,
+    "name": "Tas",
+    "slug": "/products",
+    "image": "/Products/Tas/tas (1).jpg"
+  },
+  {
+    "id": 2,
+    "name": "Tas",
+    "slug": "/products",
+    "image": "/Products/Tas/tas (2).jpg"
+  },
+  {
+    "id": 3,
+    "name": "Tas",
+    "slug": "/products",
+    "image": "/Products/Tas/tas (3).jpg"
+  },
+  {
+    "id": 4,
+    "name": "Tas",
+    "slug": "/products",
+    "image": "/Products/Tas/tas (4).jpg"
+  },
+  {
+    "id": 5,
+    "name": "Tas",
+    "slug": "/products",
+    "image": "/Products/Tas/tas (5).jpg"
+  },
+  {
+    "id": 6,
+    "name": "Tas",
+    "slug": "/products",
+    "image": "/Products/Tas/tas (6).jpg"
+  },
+  {
+    "id": 7,
+    "name": "Tas",
+    "slug": "/products",
+    "image": "/Products/Tas/tas (7).jpg"
+  },
+  {
+    "id": 8,
+    "name": "Tas",
+    "slug": "/products",
+    "image": "/Products/Tas/tas (8).jpg"
+  },
+
+  {
+    "id": 9,
+    "name": "Aksesoris",
+    "slug": "/products",
+    "image": "/Products/Aksesoris/aksesoris (1).jpg"
+  },
+  {
+    "id": 10,
+    "name": "Aksesoris",
+    "slug": "/products",
+    "image": "/Products/Aksesoris/aksesoris (2).jpg"
+  },
+  {
+    "id": 11,
+    "name": "Aksesoris",
+    "slug": "/products",
+    "image": "/Products/Aksesoris/aksesoris (3).jpg"
+  },
+  {
+    "id": 12,
+    "name": "Aksesoris",
+    "slug": "/products",
+    "image": "/Products/Aksesoris/aksesoris (4).jpg"
+  },
+  {
+    "id": 13,
+    "name": "Aksesoris",
+    "slug": "/products",
+    "image": "/Products/Aksesoris/aksesoris (5).jpg"
+  },
+  {
+    "id": 14,
+    "name": "Aksesoris",
+    "slug": "/products",
+    "image": "/Products/Aksesoris/aksesoris (6).jpg"
+  },
+
+  {
+    "id": 15,
+    "name": "Bouquet",
+    "slug": "/products",
+    "image": "/Products/Bouquet/bouquet (1).jpg"
+  },
+  {
+    "id": 16,
+    "name": "Bouquet",
+    "slug": "/products",
+    "image": "/Products/Bouquet/bouquet (2).jpg"
+  },
+  {
+    "id": 17,
+    "name": "Bouquet",
+    "slug": "/products",
+    "image": "/Products/Bouquet/bouquet (3).jpg"
+  },
+  {
+    "id": 18,
+    "name": "Bouquet",
+    "slug": "/products",
+    "image": "/Products/Bouquet/bouquet (4).jpg"
+  },
+
+  {
+    "id": 19,
+    "name": "Dompet",
+    "slug": "/products",
+    "image": "/Products/Dompet/dompet (1).jpg"
+  },
+  {
+    "id": 20,
+    "name": "Dompet",
+    "slug": "/products",
+    "image": "/Products/Dompet/dompet (2).jpg"
+  },
+  {
+    "id": 21,
+    "name": "Dompet",
+    "slug": "/products",
+    "image": "/Products/Dompet/dompet (3).jpg"
+  },
+  {
+    "id": 22,
+    "name": "Dompet",
+    "slug": "/products",
+    "image": "/Products/Dompet/dompet (4).jpg"
+  },
+  {
+    "id": 23,
+    "name": "Dompet",
+    "slug": "/products",
+    "image": "/Products/Dompet/dompet (5).jpg"
+  },
+  {
+    "id": 24,
+    "name": "Dompet",
+    "slug": "/products",
+    "image": "/Products/Dompet/dompet (6).jpg"
+  },
+  {
+    "id": 25,
+    "name": "Dompet",
+    "slug": "/products",
+    "image": "/Products/Dompet/dompet (7).jpg"
+  },
+
+  {
+    "id": 26,
+    "name": "Sepatu",
+    "slug": "/products",
+    "image": "/Products/Sepatu/sepatu (1).jpg"
+  },
+  {
+    "id": 27,
+    "name": "Sepatu",
+    "slug": "/products",
+    "image": "/Products/Sepatu/sepatu (2).jpg"
+  },
+  {
+    "id": 28,
+    "name": "Sepatu",
+    "slug": "/products",
+    "image": "/Products/Sepatu/sepatu (3).jpg"
+  },
+  {
+    "id": 29,
+    "name": "Sepatu",
+    "slug": "/products",
+    "image": "/Products/Sepatu/sepatu (4).jpg"
+  },
+  {
+    "id": 30,
+    "name": "Sepatu",
+    "slug": "/products",
+    "image": "/Products/Sepatu/sepatu (5).jpg"
+  },
+
+  {
+    "id": 31,
+    "name": "Topi",
+    "slug": "/products",
+    "image": "/Products/Topi/topi (1).jpg"
+  },
+  {
+    "id": 32,
+    "name": "Topi",
+    "slug": "/products",
+    "image": "/Products/Topi/topi (2).jpg"
+  },
+  {
+    "id": 33,
+    "name": "Topi",
+    "slug": "/products",
+    "image": "/Products/Topi/topi (3).jpg"
+  },
+  {
+    "id": 34,
+    "name": "Topi",
+    "slug": "/products",
+    "image": "/Products/Topi/topi (4).jpg"
+  },
+  {
+    "id": 35,
+    "name": "Topi",
+    "slug": "/products",
+    "image": "/Products/Topi/topi (5).jpg"
+  },
+  {
+    "id": 36,
+    "name": "Topi",
+    "slug": "/products",
+    "image": "/Products/Topi/topi (6).jpg"
+  }
+]

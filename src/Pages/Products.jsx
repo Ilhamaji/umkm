@@ -266,6 +266,7 @@ export default function Products() {
                 <center>
                   <div className="h-48 overflow-hidden w-85 duration-300 rounded-3xl">
                     <img
+                      loading="lazy"
                       src={item.gambar}
                       className="flex z-0 h-100 -translate-y-10 md:-translate-y-36 group-hover:scale-150 duration-300"
                       alt="Tas1"

@@ -21,7 +21,15 @@ function App() {
         <Route
           path="/products"
           element={
-            <React.Suspense fallback="Loading...">
+            <React.Suspense
+              fallback={
+                <div className="flex justify-center">
+                  <div className="animate-spin bg-black w-12 h-12 text-center align-middle rounded-full text-4xl bold text-white">
+                    ↻
+                  </div>
+                </div>
+              }
+            >
               <LazyProducts />
             </React.Suspense>
           }

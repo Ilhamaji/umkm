@@ -25,7 +25,7 @@ export default function Aksesoris() {
     <>
       <Navbar />
       <center>
-        <div className="text-5xl rounded-lg py-2 text-center my-5 w-60 bg-pink-500 border-neutral-800 border-2font-bold text-white">
+        <div className="text-5xl rounded-lg py-2 text-center my-5 w-60 bg-pink-500 border-neutral-800 border-2 font-bold text-white">
           Aksesoris
         </div>
       </center>

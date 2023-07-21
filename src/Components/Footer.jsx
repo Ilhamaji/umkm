@@ -11,24 +11,36 @@ export default function Footer() {
         <div className="text-lg mx-5">Produk Kirei Galeri</div>
         <div className="flex flex-wrap mx-5">
           <div className="flex-none">
-            <Link to="/product/tas" className="text-3xl hover:text-pink-500">
+            <Link to="/products/tas" className="text-3xl hover:text-pink-500">
               Tas
             </Link>{" "}
-            <Link to="/product/tas" className="text-3xl hover:text-pink-500">
+            <Link
+              to="/products/dompet"
+              className="text-3xl hover:text-pink-500"
+            >
               Dompet
             </Link>
             <br />
-            <Link to="/product/tas" className="text-3xl hover:text-pink-500">
+            <Link
+              to="/products/sepatu"
+              className="text-3xl hover:text-pink-500"
+            >
               Sepatu
             </Link>{" "}
-            <Link to="/product/tas" className="text-3xl hover:text-pink-500">
+            <Link
+              to="/products/bouquet"
+              className="text-3xl hover:text-pink-500"
+            >
               Bouquet
             </Link>
             <br />
-            <Link to="/product/tas" className="text-3xl hover:text-pink-500">
+            <Link to="/products/topi" className="text-3xl hover:text-pink-500">
               Topi
             </Link>{" "}
-            <Link to="/product/tas" className="text-3xl hover:text-pink-500">
+            <Link
+              to="/products/aksesoris"
+              className="text-3xl hover:text-pink-500"
+            >
               Aksesoris
             </Link>
           </div>

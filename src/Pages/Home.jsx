@@ -1,25 +1,10 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
-import axios from "axios";
+import Products from "../API/Home.json";
 
 export default function Home() {
-  const [products, setProducts] = useState([]);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    const loadImage = async () => {
-      const response = await axios.get(
-        process.env.PUBLIC_URL + "/API/Home.json"
-      );
-
-      setProducts(response.data);
-      setLoading(false);
-    };
-    loadImage();
-  }, []);
-
   return (
     <>
       <Navbar />
@@ -56,8 +41,8 @@ export default function Home() {
         <div className="w-100 mx-5 md:mx-10 border-b-1"></div>
 
         <div className="flex flex-wrap justify-center w-100 my-5 mx-5 overflow-hidden">
-          {products.map(({ id, jenis, image, slug }) => {
-            if (loading) {
+          {Products.map(({ id, jenis, image, slug }) => {
+            if (!Products) {
               return (
                 <div className="flex justify-center">
                   <div className="animate-spin bg-black w-12 h-12 text-center align-middle rounded-full text-4xl bold text-white">

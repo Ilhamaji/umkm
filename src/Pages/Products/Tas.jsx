@@ -1,26 +1,11 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Navbar from "../../Components/Navbar";
 import Footer from "../../Components/Footer";
 import LazyLoad from "react-lazy-load";
-import axios from "axios";
 import { Link } from "react-router-dom";
+import ProductsAPI from "../../API/Products.json";
 
 export default function Tas() {
-  const [products, setProducts] = useState([]);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    const loadImage = async () => {
-      const response = await axios.get(
-        process.env.PUBLIC_URL + "/API/Products.json"
-      );
-
-      setProducts(response.data);
-      setLoading(false);
-    };
-    loadImage();
-  }, []);
-
   return (
     <>
       <Navbar />
@@ -29,7 +14,7 @@ export default function Tas() {
           Tas
         </div>
       </center>
-      {loading ? (
+      {!ProductsAPI ? (
         <div className="flex justify-center">
           <div className="animate-spin bg-black w-12 h-12 text-center align-middle rounded-full text-4xl bold text-white">
             ↻
@@ -37,7 +22,7 @@ export default function Tas() {
         </div>
       ) : (
         <div className="mx-5 flex flex-wrap justify-center">
-          {products.map(({ id, name, slug, details, image }) => {
+          {ProductsAPI.map(({ id, name, slug, details, image }) => {
             if (name === "Tas") {
               return (
                 <div

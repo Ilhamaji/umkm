@@ -1,25 +1,12 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
 import Blob from "../Assets/blob-scene-haikei.svg";
 import LazyLoad from "react-lazy-load";
-import axios from "axios";
 import { Link } from "react-router-dom";
+import ProductsAPI from "../API/Products.json";
 
 export default function Products() {
-  const [products, setProducts] = useState([]);
-
-  useEffect(() => {
-    const loadImage = async () => {
-      const response = await axios.get(
-        process.env.PUBLIC_URL + "/API/Products.json"
-      );
-
-      setProducts(response.data);
-    };
-    loadImage();
-  }, []);
-
   return (
     <>
       <Navbar />
@@ -30,7 +17,7 @@ export default function Products() {
         </div>
       </center>
       <div className="mx-5 flex flex-wrap justify-center">
-        {products.map(({ id, name, slug, details, image }) => {
+        {ProductsAPI.map(({ id, name, slug, details, image }) => {
           if (name === "Aksesoris") {
             return (
               <div
@@ -83,7 +70,7 @@ export default function Products() {
         </div>
       </center>
       <div className="mx-5 flex flex-wrap justify-center">
-        {products.map(({ id, name, slug, details, image }) => {
+        {ProductsAPI.map(({ id, name, slug, details, image }) => {
           if (name === "Bouquet") {
             return (
               <div
@@ -136,7 +123,7 @@ export default function Products() {
         </div>
       </center>
       <div className="mx-5 flex flex-wrap justify-center">
-        {products.map(({ id, name, slug, details, image }) => {
+        {ProductsAPI.map(({ id, name, slug, details, image }) => {
           if (name === "Dompet") {
             return (
               <div
@@ -189,7 +176,7 @@ export default function Products() {
         </div>
       </center>
       <div className="mx-5 flex flex-wrap justify-center">
-        {products.map(({ id, name, slug, details, image }) => {
+        {ProductsAPI.map(({ id, name, slug, details, image }) => {
           if (name === "Sepatu") {
             return (
               <div
@@ -242,7 +229,7 @@ export default function Products() {
         </div>
       </center>
       <div className="mx-5 flex flex-wrap justify-center">
-        {products.map(({ id, name, slug, details, image }) => {
+        {ProductsAPI.map(({ id, name, slug, details, image }) => {
           if (name === "Tas") {
             return (
               <div
@@ -295,7 +282,7 @@ export default function Products() {
         </div>
       </center>
       <div className="mx-5 flex flex-wrap justify-center">
-        {products.map(({ id, name, slug, details, image }) => {
+        {ProductsAPI.map(({ id, name, slug, details, image }) => {
           if (name === "Topi") {
             return (
               <div

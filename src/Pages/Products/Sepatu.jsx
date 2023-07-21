@@ -1,20 +1,35 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Navbar from "../../Components/Navbar";
 import Footer from "../../Components/Footer";
 import LazyLoad from "react-lazy-load";
+import axios from "axios";
 import { Link } from "react-router-dom";
-import ProductsAPI from "../../API/Products.json";
 
 export default function Sepatu() {
+  const [products, setProducts] = useState([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const loadImage = async () => {
+      const response = await axios.get(
+        process.env.PUBLIC_URL + "/API/Products.json"
+      );
+
+      setProducts(response.data);
+      setLoading(false);
+    };
+    loadImage();
+  }, []);
+
   return (
     <>
       <Navbar />
       <center>
-        <div className="text-5xl rounded-lg py-2 text-center my-5 w-60 bg-neutral-800 font-bold text-white">
+        <div className="text-5xl rounded-lg py-2 text-center my-5 w-60 bg-pink-500 border-neutral-800 border-2 font-bold text-white">
           Sepatu
         </div>
       </center>
-      {!ProductsAPI ? (
+      {loading ? (
         <div className="flex justify-center">
           <div className="animate-spin bg-black w-12 h-12 text-center align-middle rounded-full text-4xl bold text-white">
             ↻
@@ -22,7 +37,7 @@ export default function Sepatu() {
         </div>
       ) : (
         <div className="mx-5 flex flex-wrap justify-center">
-          {ProductsAPI.map(({ id, name, slug, details, image }) => {
+          {products.map(({ id, name, slug, details, image }) => {
             if (name === "Sepatu") {
               return (
                 <div

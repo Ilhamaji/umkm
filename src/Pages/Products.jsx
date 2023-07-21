@@ -1,23 +1,36 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
 import Blob from "../Assets/blob-scene-haikei.svg";
 import LazyLoad from "react-lazy-load";
+import axios from "axios";
 import { Link } from "react-router-dom";
-import ProductsAPI from "../API/Products.json";
 
 export default function Products() {
+  const [products, setProducts] = useState([]);
+
+  useEffect(() => {
+    const loadImage = async () => {
+      const response = await axios.get(
+        process.env.PUBLIC_URL + "/API/Products.json"
+      );
+
+      setProducts(response.data);
+    };
+    loadImage();
+  }, []);
+
   return (
     <>
       <Navbar />
 
       <center>
-        <div className="text-5xl rounded-lg py-2 text-center my-5 w-60 bg-neutral-800 font-bold text-white">
+        <div className="text-5xl rounded-lg py-2 text-center my-5 w-60 bg-pink-500 border-neutral-800 border-2 font-bold text-white">
           Aksesoris
         </div>
       </center>
       <div className="mx-5 flex flex-wrap justify-center">
-        {ProductsAPI.map(({ id, name, slug, details, image }) => {
+        {products.map(({ id, name, slug, details, image }) => {
           if (name === "Aksesoris") {
             return (
               <div
@@ -65,12 +78,12 @@ export default function Products() {
       </div>
 
       <center>
-        <div className="text-5xl rounded-lg py-2 text-center my-5 w-60 bg-neutral-800 font-bold text-white">
+        <div className="text-5xl rounded-lg py-2 text-center my-5 w-60 bg-pink-500 border-neutral-800 border-2 font-bold text-white">
           Bouquet
         </div>
       </center>
       <div className="mx-5 flex flex-wrap justify-center">
-        {ProductsAPI.map(({ id, name, slug, details, image }) => {
+        {products.map(({ id, name, slug, details, image }) => {
           if (name === "Bouquet") {
             return (
               <div
@@ -118,12 +131,12 @@ export default function Products() {
       </div>
 
       <center>
-        <div className="text-5xl rounded-lg py-2 text-center my-5 w-60 bg-neutral-800 font-bold text-white">
+        <div className="text-5xl rounded-lg py-2 text-center my-5 w-60 bg-pink-500 border-neutral-800 border-2 font-bold text-white">
           Dompet
         </div>
       </center>
       <div className="mx-5 flex flex-wrap justify-center">
-        {ProductsAPI.map(({ id, name, slug, details, image }) => {
+        {products.map(({ id, name, slug, details, image }) => {
           if (name === "Dompet") {
             return (
               <div
@@ -171,12 +184,12 @@ export default function Products() {
       </div>
 
       <center>
-        <div className="text-5xl rounded-lg py-2 text-center my-5 w-60 bg-neutral-800 font-bold text-white">
+        <div className="text-5xl rounded-lg py-2 text-center my-5 w-60 bg-pink-500 border-neutral-800 border-2 font-bold text-white">
           Sepatu
         </div>
       </center>
       <div className="mx-5 flex flex-wrap justify-center">
-        {ProductsAPI.map(({ id, name, slug, details, image }) => {
+        {products.map(({ id, name, slug, details, image }) => {
           if (name === "Sepatu") {
             return (
               <div
@@ -224,12 +237,12 @@ export default function Products() {
       </div>
 
       <center>
-        <div className="text-5xl rounded-lg py-2 text-center my-5 w-60 bg-neutral-800 font-bold text-white">
+        <div className="text-5xl rounded-lg py-2 text-center my-5 w-60 bg-pink-500 border-neutral-800 border-2 font-bold text-white">
           Tas
         </div>
       </center>
       <div className="mx-5 flex flex-wrap justify-center">
-        {ProductsAPI.map(({ id, name, slug, details, image }) => {
+        {products.map(({ id, name, slug, details, image }) => {
           if (name === "Tas") {
             return (
               <div
@@ -277,12 +290,12 @@ export default function Products() {
       </div>
 
       <center>
-        <div className="text-5xl rounded-lg py-2 text-center my-5 w-60 bg-neutral-800 font-bold text-white">
+        <div className="text-5xl rounded-lg py-2 text-center my-5 w-60 bg-pink-500 border-neutral-800 border-2 font-bold text-white">
           Topi
         </div>
       </center>
       <div className="mx-5 flex flex-wrap justify-center">
-        {ProductsAPI.map(({ id, name, slug, details, image }) => {
+        {products.map(({ id, name, slug, details, image }) => {
           if (name === "Topi") {
             return (
               <div

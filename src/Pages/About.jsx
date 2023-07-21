@@ -8,7 +8,7 @@ export default function About() {
       <Navbar />
 
       <div className="flex w-full justify-center">
-        <div className="flex flex-wrap justify-center mx-5 w-fit md:mx-10 mt-5 xl:mt-28 py-5 md:px-5 bg-neutral-950 rounded-3xl">
+        <div className="flex flex-wrap justify-center mx-5 w-fit md:mx-10 mt-5 xl:mt-28 py-12 md:px-5 bg-neutral-950 rounded-3xl">
           <div className="bg-neutral-800 cursor-default mx-5 md:mx-10 py-7 h-fit w-80 md:w-96 rounded-3xl group">
             <center>
               <div className="h-48 overflow-hidden w-85 duration-300 rounded-3xl">
@@ -32,22 +32,27 @@ export default function About() {
 
           <div className="w-100 mt-5 lg:mt-0 md:w-120 mx-10 text-white">
             <div className="text-3xl mb-2 font-bold">About</div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
-            mollitia maxime repudiandae vero? Unde ab, temporibus earum harum,
-            voluptates error incidunt beatae explicabo libero, officiis totam
-            dolor rem sit illum. Lorem, ipsum dolor sit amet consectetur
-            adipisicing elit. Doloremque perspiciatis aliquid cupiditate,
-            pariatur quisquam dolore iusto corrupti quasi aliquam dolorem eaque
-            ad, deserunt exercitationem tenetur accusantium ut libero excepturi
-            natus. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Praesentium, minima quam aspernatur ipsum at inventore repellendus
-            laudantium corporis hic laborum modi ea maxime, quibusdam ipsam fuga
-            porro ex id! Assumenda!. Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Velit harum molestias architecto similique,
-            laborum, esse maxime animi excepturi vitae vel vero veniam molestiae
-            itaque magnam, possimus commodi sunt dolor. Itaque.
+            Kirei Galeri adalah usaha yang bergerak dibidang kerajinan tangan
+            dengan berbagai macam produk, seperti tas, topi, sepatu yang
+            berbahan utama yaitu benang rajut. Kirei Galeri berawal dari hobi
+            yang kami lakukan di rumah, yang kemudian menarik minat pembeli,
+            lalu kami mengembangkan usaha ini secara online melalui sosial media
+            seperti instagram dan whatsapp. Kemudian seiring berjalannya waktu
+            karena semakin banyak pembeli dan di daerah kami belum adanya toko
+            rajutan maka kami membuka toko dengan nama kirei galeri.
           </div>
         </div>
+      </div>
+
+      <div className="flex justify-center">
+        <iframe
+          title="gmaps"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d247.28802696650484!2d110.82817139636602!3d-7.397696083561781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sid!4v1689965133028!5m2!1sen!2sid"
+          className="flex mt-10 mx-5 md:mx-10 lg:mx-15 xl:mx-20 2xl:mx-36 rounded-lg justfy-self-center w-full h-80"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
       </div>
 
       <Footer />

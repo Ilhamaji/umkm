@@ -101,6 +101,7 @@ export default function Footer() {
               </tbody>
             </table>
           </div>
+
           <div className="flex mt-5 font-semibold">
             Kami bergerak di bidang kerajinan tangan dengan berbagai macam
             produk, seperti: tas, topi dan sepatu yang berbahan utama benang

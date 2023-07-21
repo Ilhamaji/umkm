@@ -37,7 +37,7 @@ export default function Aksesoris() {
         </div>
       ) : (
         <div className="mx-5 flex flex-wrap justify-center">
-          {products.map(({ id, name, slug, image }) => {
+          {products.map(({ id, name, slug, details, image }) => {
             if (name === "Aksesoris") {
               return (
                 <div
@@ -67,6 +67,12 @@ export default function Aksesoris() {
                       >
                         🛒 Beli Sekarang
                       </Link>
+                    </div>
+                    <div className="text-left truncate group-hover:hidden mx-7 mt-5 text-white">
+                      {details}
+                    </div>
+                    <div className="text-left mx-7 mt-5 text-white hidden group-hover:block">
+                      {details}
                     </div>
                   </center>
                 </div>

@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import Logo from "../Assets/logo-removebg.png";
 import { NavLink } from "react-router-dom";
+import IconWa from "../Assets/icon (1).png";
+import IconIg from "../Assets/icon (2).png";
+import IconFb from "../Assets/icon (3).png";
 
 export default function Navbar() {
   const [collapse, collapsed] = useState(false);
@@ -14,13 +17,13 @@ export default function Navbar() {
 
   return (
     <>
-      <div className="sticky shadow-md top-0 z-50 justify-between py-5 w-100 bg-white flex">
+      <div className="sticky shadow-md justify-between top-0 z-40 h-16 py-5 w-100 bg-white flex">
         <ul className="ml-5">
           <li className="mr-5">
             <img src={Logo} alt="logo" className="w-24" />
           </li>
         </ul>
-        <ul className="m-auto hidden md:inline h-100">
+        <ul className="hidden md:inline h-100">
           <li className="inline">
             <NavLink
               className="inline mx-2 rounded hover:text-white hover:bg-pink-500 py-2 px-4 transition"
@@ -45,15 +48,50 @@ export default function Navbar() {
               About
             </NavLink>
           </li>
-          <li className="inline">
-            <NavLink
-              className="inline mx-2 rounded hover:text-white group hover:bg-pink-500 py-2 px-4 transition"
-              to="/contact"
-            >
+          <li className="inline z-50 cursor-pointer group">
+            <div className="inline mx-2 rounded hover:text-white hover:bg-pink-500 py-2 px-4 transition">
               Contact
-            </NavLink>
+            </div>
+            <div className="group-hover:grid group-hover:visible hidden invisible mt-2 mantul duration-300">
+              <ul className="justify-self-end bg-neutral-100 rounded-md">
+                <li
+                  className="block hover:bg-white hover:border-l-4 border-pink-500 group/list
+                "
+                >
+                  <a
+                    href="http://instagram.com/kirei_galery"
+                    className="flex py-2 mx-5 justify-between group-hover/list:ml-4"
+                  >
+                    <img src={IconIg} alt="ig" /> Instagram
+                  </a>
+                </li>
+                <li
+                  className="block hover:bg-white hover:border-l-4 border-pink-500 group/list
+                "
+                >
+                  <a
+                    href="https://www.facebook.com/profile.php?id=100009602703519"
+                    className="flex py-2 mx-5 justify-between group-hover/list:ml-4"
+                  >
+                    <img src={IconFb} alt="fb" /> Facebook
+                  </a>
+                </li>
+                <li
+                  className="block hover:bg-white hover:border-l-4 border-pink-500 group/list
+                "
+                >
+                  <a
+                    href="http://wa.me/6281329390862"
+                    className="flex py-2 mx-5 justify-between group-hover/list:ml-4"
+                  >
+                    <img src={IconWa} alt="wa" /> Whatsapp
+                  </a>
+                </li>
+              </ul>
+            </div>
           </li>
         </ul>
+
         <ul className="mr-5 hidden md:inline">
           <NavLink
             to="/faq"

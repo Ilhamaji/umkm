@@ -63,15 +63,16 @@ code {
   width: 90%;
 }
 
-.bg-main {
-  background-color: #e966a0;
+.mantul {
+  animation: mantul 0.2s;
 }
-.bg-second {
-  background-color: #2b2730;
-}
-.bg-third {
-  background-color: #6554af;
-}
-.bg-fourth {
-  background-color: #9575de;
+
+@keyframes mantul {
+  0% {
+    transform: translateY(-25%);
+  }
+
+  100% {
+    transform: translateY(0%);
+  }
 }

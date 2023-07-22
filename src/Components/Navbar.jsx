@@ -155,9 +155,9 @@ export default function Navbar() {
           </NavLink>
           <div className="block text-center py-2 hover:bg-pink-400 hover:text-white group/collapse">
             Contact
-            <ul className="justify-self-end mx-5 bg-neutral-100 rounded-md hidden inviible text-black group-hover/collapse:visible group-hover/collapse:block">
+            <ul className="justify-self-end mx-5 bg-neutral-100 rounded-md hidden  inviible text-black group-hover/collapse:visible group-hover/collapse:block">
               <li
-                className="block hover:bg-white hover:border-l-4 border-pink-500 group/list
+                className="block hover:bg-white rounded-md border-4 border-white group/list
                 "
               >
                 <a
@@ -168,7 +168,7 @@ export default function Navbar() {
                 </a>
               </li>
               <li
-                className="block hover:bg-white hover:border-l-4 border-pink-500 group/list
+                className="block hover:bg-white rounded-md border-4 border-white group/list
                 "
               >
                 <a
@@ -179,7 +179,7 @@ export default function Navbar() {
                 </a>
               </li>
               <li
-                className="block hover:bg-white hover:border-l-4 border-pink-500 group/list
+                className="block hover:bg-white rounded-md border-4 border-white group/list
                 "
               >
                 <a

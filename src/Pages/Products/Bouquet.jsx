@@ -42,7 +42,7 @@ export default function Bouquet() {
               return (
                 <div
                   key={id}
-                  className="hover:shadow-none duration-300 bg-neutral-800 cursor-default py-7 h-fit w-96 rounded-3xl my-5 mx-5 shadow-lg shadow-pink-500 group"
+                  className="hover:shadow-none duration-300 border-4 border-transparent hover:border-white bg-neutral-800 cursor-default py-7 h-fit w-96 rounded-3xl my-5 mx-5 shadow-lg shadow-pink-500 group"
                 >
                   <center>
                     <LazyLoad

@@ -12,8 +12,6 @@ export default function About() {
           <iframe
             className="md:w-110 w-96 h-100 mx-5 md:mx-0"
             src="https://www.youtube.com/embed/0fWy3K8iCB8?modestbranding=1&rel=0&controls=0"
-            width="560"
-            height="315"
             title="Kirey Gallery"
             frameborder="0"
             allowfullscreen

@@ -153,12 +153,44 @@ export default function Navbar() {
           >
             About
           </NavLink>
-          <NavLink
-            to={"/contact"}
-            className="block text-center py-2 hover:bg-pink-400 hover:text-white"
-          >
+          <div className="block text-center py-2 hover:bg-pink-400 hover:text-white group/collapse">
             Contact
-          </NavLink>
+            <ul className="justify-self-end mx-5 bg-neutral-100 rounded-md hidden inviible text-black group-hover/collapse:visible group-hover/collapse:block">
+              <li
+                className="block hover:bg-white hover:border-l-4 border-pink-500 group/list
+                "
+              >
+                <a
+                  href="http://instagram.com/kirei_galery"
+                  className="flex py-2 mx-5 justify-between group-hover/list:ml-4"
+                >
+                  <img src={IconIg} alt="ig" /> Instagram
+                </a>
+              </li>
+              <li
+                className="block hover:bg-white hover:border-l-4 border-pink-500 group/list
+                "
+              >
+                <a
+                  href="https://www.facebook.com/profile.php?id=100009602703519"
+                  className="flex py-2 mx-5 justify-between group-hover/list:ml-4"
+                >
+                  <img src={IconFb} alt="fb" /> Facebook
+                </a>
+              </li>
+              <li
+                className="block hover:bg-white hover:border-l-4 border-pink-500 group/list
+                "
+              >
+                <a
+                  href="http://wa.me/6281329390862"
+                  className="flex py-2 mx-5 justify-between group-hover/list:ml-4"
+                >
+                  <img src={IconWa} alt="wa" /> Whatsapp
+                </a>
+              </li>
+            </ul>
+          </div>
         </ul>
       )}
     </>

@@ -33,7 +33,9 @@ export default function Home() {
           <div className="text-center mx-5">
             <div className="text-5xl font-black jumbotron inline">
               Selamat Datang di{" "}
-              <div className="inline lobster text-pink-500">Kirei</div>
+              <div className="inline lobster text-pink-500 animate-pulse">
+                Kirei
+              </div>
             </div>
           </div>
           <div className="text-center mx-5 my-2 md:my-7">

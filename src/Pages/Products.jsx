@@ -24,11 +24,11 @@ export default function Products() {
     <>
       <Navbar />
 
-      <center>
-        <div className="text-5xl rounded-lg py-2 text-center my-5 w-60 bg-pink-500 border-neutral-800 border-2 font-bold text-white">
+      <div className="flex justify-center 2xl:justify-start mx-36">
+        <div className="text-5xl rounded-lg py-2 text-center my-5 w-60 bg-neutral-800 shadow-pink-500 shadow-lg font-bold text-white">
           Aksesoris
         </div>
-      </center>
+      </div>
       <div className="mx-5 flex flex-wrap justify-center">
         {products.map(({ id, name, slug, details, image }) => {
           if (name === "Aksesoris") {
@@ -77,11 +77,11 @@ export default function Products() {
         })}
       </div>
 
-      <center>
-        <div className="text-5xl rounded-lg py-2 text-center my-5 w-60 bg-pink-500 border-neutral-800 border-2 font-bold text-white">
+      <div className="flex justify-center 2xl:justify-start mx-36">
+        <div className="text-5xl rounded-lg py-2 text-center my-5 w-60 bg-neutral-800 shadow-pink-500 shadow-lg font-bold text-white">
           Bouquet
         </div>
-      </center>
+      </div>
       <div className="mx-5 flex flex-wrap justify-center">
         {products.map(({ id, name, slug, details, image }) => {
           if (name === "Bouquet") {
@@ -130,11 +130,11 @@ export default function Products() {
         })}
       </div>
 
-      <center>
-        <div className="text-5xl rounded-lg py-2 text-center my-5 w-60 bg-pink-500 border-neutral-800 border-2 font-bold text-white">
+      <div className="flex justify-center 2xl:justify-start mx-36">
+        <div className="text-5xl rounded-lg py-2 text-center my-5 w-60 bg-neutral-800 shadow-pink-500 shadow-lg font-bold text-white">
           Dompet
         </div>
-      </center>
+      </div>
       <div className="mx-5 flex flex-wrap justify-center">
         {products.map(({ id, name, slug, details, image }) => {
           if (name === "Dompet") {
@@ -183,11 +183,11 @@ export default function Products() {
         })}
       </div>
 
-      <center>
-        <div className="text-5xl rounded-lg py-2 text-center my-5 w-60 bg-pink-500 border-neutral-800 border-2 font-bold text-white">
+      <div className="flex justify-center 2xl:justify-start mx-36">
+        <div className="text-5xl rounded-lg py-2 text-center my-5 w-60 bg-neutral-800 shadow-pink-500 shadow-lg font-bold text-white">
           Sepatu
         </div>
-      </center>
+      </div>
       <div className="mx-5 flex flex-wrap justify-center">
         {products.map(({ id, name, slug, details, image }) => {
           if (name === "Sepatu") {
@@ -236,11 +236,11 @@ export default function Products() {
         })}
       </div>
 
-      <center>
-        <div className="text-5xl rounded-lg py-2 text-center my-5 w-60 bg-pink-500 border-neutral-800 border-2 font-bold text-white">
+      <div className="flex justify-center 2xl:justify-start mx-36">
+        <div className="text-5xl rounded-lg py-2 text-center my-5 w-60 bg-neutral-800 shadow-pink-500 shadow-lg font-bold text-white">
           Tas
         </div>
-      </center>
+      </div>
       <div className="mx-5 flex flex-wrap justify-center">
         {products.map(({ id, name, slug, details, image }) => {
           if (name === "Tas") {
@@ -289,11 +289,11 @@ export default function Products() {
         })}
       </div>
 
-      <center>
-        <div className="text-5xl rounded-lg py-2 text-center my-5 w-60 bg-pink-500 border-neutral-800 border-2 font-bold text-white">
+      <div className="flex justify-center 2xl:justify-start mx-36">
+        <div className="text-5xl rounded-lg py-2 text-center my-5 w-60 bg-neutral-800 shadow-pink-500 shadow-lg font-bold text-white">
           Topi
         </div>
-      </center>
+      </div>
       <div className="mx-5 flex flex-wrap justify-center">
         {products.map(({ id, name, slug, details, image }) => {
           if (name === "Topi") {

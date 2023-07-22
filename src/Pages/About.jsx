@@ -9,37 +9,31 @@ export default function About() {
 
       <div className="flex w-full justify-center">
         <div className="flex flex-wrap justify-center mx-5 w-fit md:mx-10 mt-5 xl:mt-28 py-12 md:px-5 bg-neutral-950 rounded-3xl">
-          <div className="bg-neutral-800 cursor-default mx-5 md:mx-10 py-7 h-fit w-80 md:w-96 rounded-3xl group">
-            <center>
-              <div className="h-48 overflow-hidden w-85 duration-300 rounded-3xl">
-                <img
-                  className="flex z-0 h-100 -translate-y-10 md:-translate-y-36 duration-300"
-                  alt="Tas1"
-                />
-              </div>
-
-              <div className="w-85 h-px my-5 bg-slate-300"></div>
-              <div className="flex justify-between px-7">
-                <div className="text-4xl text-white w-10 font-semibold">
-                  Tas
-                </div>
-                <div className="py-2 w-40 shadow-md shadow-pink-500 hover:shadow-none hover:bg-neutral-300 font-semibold rounded-3xl bg-white cursor-pointer duration-200">
-                  🛒 Beli Sekarang
-                </div>
-              </div>
-            </center>
-          </div>
+          <iframe
+            className="md:w-110 w-96 h-100 mx-5 md:mx-0"
+            src="https://www.youtube.com/embed/0fWy3K8iCB8?modestbranding=1&rel=0&controls=0"
+            width="560"
+            height="315"
+            title="Kirey Gallery"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
 
           <div className="w-100 mt-5 lg:mt-0 md:w-120 mx-10 text-white">
-            <div className="text-3xl mb-2 font-bold">About</div>
-            Kirei Galeri adalah usaha yang bergerak dibidang kerajinan tangan
-            dengan berbagai macam produk, seperti tas, topi, sepatu yang
-            berbahan utama yaitu benang rajut. Kirei Galeri berawal dari hobi
-            yang kami lakukan di rumah, yang kemudian menarik minat pembeli,
-            lalu kami mengembangkan usaha ini secara online melalui sosial media
-            seperti instagram dan whatsapp. Kemudian seiring berjalannya waktu
-            karena semakin banyak pembeli dan di daerah kami belum adanya toko
-            rajutan maka kami membuka toko dengan nama kirei galeri.
+            <div className="text-5xl mb-2 bg-neutral-800 w-fit px-5 py-2 rounded-md font-bold">
+              Kirei Galeri
+            </div>
+            <div className="bg-neutral-800 w-fit md:mt-10 px-5 py-2 rounded-md">
+              Kirei Galeri adalah usaha yang bergerak dibidang kerajinan tangan
+              dengan berbagai macam produk, seperti tas, topi, sepatu yang
+              berbahan utama yaitu benang rajut. Kirei Galeri berawal dari hobi
+              yang kami lakukan di rumah, yang kemudian menarik minat pembeli,
+              lalu kami mengembangkan usaha ini secara online melalui sosial
+              media seperti instagram dan whatsapp. Kemudian seiring berjalannya
+              waktu karena semakin banyak pembeli dan di daerah kami belum
+              adanya toko rajutan maka kami membuka toko dengan nama kirei
+              galeri.
+            </div>
           </div>
         </div>
       </div>

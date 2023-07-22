@@ -68,7 +68,7 @@ export default function Dompet() {
                         🛒 Beli Sekarang
                       </Link>
                     </div>
-                    <div className="text-left truncate group-hover:hidden mx-7 mt-5 text-white">
+                    <div className="text-left lg:truncate group-hover:hidden mx-7 mt-5 text-white">
                       {details}
                     </div>
                     <div className="text-left mx-7 mt-5 text-white hidden group-hover:block">

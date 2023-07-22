@@ -10,7 +10,7 @@ export default function About() {
       <div className="flex w-full justify-center">
         <div className="flex flex-wrap justify-center mx-5 w-fit md:mx-10 mt-5 xl:mt-28 py-12 md:px-5 bg-neutral-950 rounded-3xl">
           <iframe
-            className="md:w-110 w-96 h-100 mx-5 md:mx-0"
+            className="md:w-110 w-100 h-44 lg:h-72 mx-5 md:mx-0"
             src="https://www.youtube.com/embed/0fWy3K8iCB8?modestbranding=1&rel=0&controls=0"
             title="Kirey Gallery"
             frameborder="0"

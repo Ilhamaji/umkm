@@ -50,7 +50,10 @@ export default function Navbar() {
           </li>
           <li className="inline z-50 cursor-pointer group">
             <div className="inline mx-2 rounded hover:text-white hover:bg-pink-500 py-2 px-4 transition">
-              Contact
+              Contact{" "}
+              <div className="font-bold inline-flex group-hover:-rotate-90 duration-300">
+                {"﹤"}
+              </div>
             </div>
             <div className="group-hover:grid group-hover:visible hidden invisible mt-2 mantul duration-300">
               <ul className="justify-self-end bg-neutral-100 rounded-md">

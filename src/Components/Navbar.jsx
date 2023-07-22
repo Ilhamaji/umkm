@@ -49,9 +49,9 @@ export default function Navbar() {
             </NavLink>
           </li>
           <li className="inline z-50 cursor-pointer group">
-            <div className="inline mx-2 rounded hover:text-white hover:bg-pink-500 py-2 px-4 transition">
+            <div className="inline mx-2 rounded hover:text-white border border-pink-500 hover:bg-pink-500 py-2 px-4 transition">
               Contact{" "}
-              <div className="font-bold inline-flex group-hover:-rotate-90 duration-300">
+              <div className="font-bold inline-flex bg-pink-500 px-1 text-white rounded-md group-hover:-rotate-90 duration-300">
                 {"﹤"}
               </div>
             </div>
@@ -95,14 +95,6 @@ export default function Navbar() {
           </li>
         </ul>
 
-        <ul className="mr-5 hidden md:inline">
-          <NavLink
-            to="/faq"
-            className="transition hover:transition inline ml-5 border border-pink-500 rounded py-2 px-5 hover:cursor-pointer hover:bg-pink-500 hover:text-white"
-          >
-            FAQ
-          </NavLink>
-        </ul>
         <ul className="md:hidden md:invisible inline mr-5">
           <button onClick={colClicked}>
             <div

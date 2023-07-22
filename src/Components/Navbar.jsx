@@ -62,7 +62,7 @@ export default function Navbar() {
             FAQ
           </NavLink>
         </ul>
-        <ul className="md:hidden inline mr-5">
+        <ul className="md:hidden md:invisible inline mr-5">
           <button onClick={colClicked}>
             <div
               className={

@@ -68,7 +68,7 @@ export default function Home() {
             } else {
               return (
                 <Link key={id} to={slug}>
-                  <div className="bg-neutral-800 cursor-pointer md:h-96 md:w-96 rounded-3xl my-5 mx-5 group hover:bg-neutral-900 duration-300">
+                  <div className="bg-neutral-800 border-4 border-transparent active:border-white hover:border-white cursor-pointer md:h-96 md:w-96 rounded-3xl my-5 mx-5 group hover:bg-neutral-900 duration-300">
                     <div className="flex px-7 py-7">
                       <div className="text-4xl text-white w-10 font-semibold">
                         {jenis}

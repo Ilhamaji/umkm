@@ -35,10 +35,11 @@ export default function Products() {
             return (
               <div
                 key={id}
-                className="hover:shadow-none duration-300 bg-neutral-800 cursor-default py-7 h-fit w-96 rounded-3xl my-5 mx-5 shadow-lg shadow-pink-500 group"
+                className="hover:shadow-none duration-300 border-4 border-transparent hover:border-white bg-neutral-800 cursor-default py-7 h-fit w-96 rounded-3xl my-5 mx-5 shadow-lg shadow-pink-500 group"
               >
                 <center>
                   <LazyLoad
+                    loading="lazy"
                     effect="blur"
                     className="h-48 overflow-hidden w-85 duration-300 rounded-3xl"
                   >
@@ -62,7 +63,7 @@ export default function Products() {
                       🛒 Beli Sekarang
                     </Link>
                   </div>
-                  <div className="text-left truncate group-hover:hidden mx-7 mt-5 text-white">
+                  <div className="text-left lg:truncate group-hover:hidden mx-7 mt-5 text-white">
                     {details}
                   </div>
                   <div className="text-left mx-7 mt-5 text-white hidden group-hover:block">
@@ -88,10 +89,11 @@ export default function Products() {
             return (
               <div
                 key={id}
-                className="hover:shadow-none duration-300 bg-neutral-800 cursor-default py-7 h-fit w-96 rounded-3xl my-5 mx-5 shadow-lg shadow-pink-500 group"
+                className="hover:shadow-none duration-300 border-4 border-transparent hover:border-white bg-neutral-800 cursor-default py-7 h-fit w-96 rounded-3xl my-5 mx-5 shadow-lg shadow-pink-500 group"
               >
                 <center>
                   <LazyLoad
+                    loading="lazy"
                     effect="blur"
                     className="h-48 overflow-hidden w-85 duration-300 rounded-3xl"
                   >
@@ -141,10 +143,11 @@ export default function Products() {
             return (
               <div
                 key={id}
-                className="hover:shadow-none duration-300 bg-neutral-800 cursor-default py-7 h-fit w-96 rounded-3xl my-5 mx-5 shadow-lg shadow-pink-500 group"
+                className="hover:shadow-none duration-300 border-4 border-transparent hover:border-white bg-neutral-800 cursor-default py-7 h-fit w-96 rounded-3xl my-5 mx-5 shadow-lg shadow-pink-500 group"
               >
                 <center>
                   <LazyLoad
+                    loading="lazy"
                     effect="blur"
                     className="h-48 overflow-hidden w-85 duration-300 rounded-3xl"
                   >
@@ -168,7 +171,7 @@ export default function Products() {
                       🛒 Beli Sekarang
                     </Link>
                   </div>
-                  <div className="text-left truncate group-hover:hidden mx-7 mt-5 text-white">
+                  <div className="text-left lg:truncate group-hover:hidden mx-7 mt-5 text-white">
                     {details}
                   </div>
                   <div className="text-left mx-7 mt-5 text-white hidden group-hover:block">
@@ -194,10 +197,11 @@ export default function Products() {
             return (
               <div
                 key={id}
-                className="hover:shadow-none duration-300 bg-neutral-800 cursor-default py-7 h-fit w-96 rounded-3xl my-5 mx-5 shadow-lg shadow-pink-500 group"
+                className="hover:shadow-none duration-300 border-4 border-transparent hover:border-white bg-neutral-800 cursor-default py-7 h-fit w-96 rounded-3xl my-5 mx-5 shadow-lg shadow-pink-500 group"
               >
                 <center>
                   <LazyLoad
+                    loading="lazy"
                     effect="blur"
                     className="h-48 overflow-hidden w-85 duration-300 rounded-3xl"
                   >
@@ -221,7 +225,7 @@ export default function Products() {
                       🛒 Beli Sekarang
                     </Link>
                   </div>
-                  <div className="text-left truncate group-hover:hidden mx-7 mt-5 text-white">
+                  <div className="text-left lg:truncate group-hover:hidden mx-7 mt-5 text-white">
                     {details}
                   </div>
                   <div className="text-left mx-7 mt-5 text-white hidden group-hover:block">
@@ -247,10 +251,11 @@ export default function Products() {
             return (
               <div
                 key={id}
-                className="hover:shadow-none duration-300 bg-neutral-800 cursor-default py-7 h-fit w-96 rounded-3xl my-5 mx-5 shadow-lg shadow-pink-500 group"
+                className="hover:shadow-none duration-300 border-4 border-transparent hover:border-white bg-neutral-800 cursor-default py-7 h-fit w-96 rounded-3xl my-5 mx-5 shadow-lg shadow-pink-500 group"
               >
                 <center>
                   <LazyLoad
+                    loading="lazy"
                     effect="blur"
                     className="h-48 overflow-hidden w-85 duration-300 rounded-3xl"
                   >
@@ -274,7 +279,7 @@ export default function Products() {
                       🛒 Beli Sekarang
                     </Link>
                   </div>
-                  <div className="text-left truncate group-hover:hidden mx-7 mt-5 text-white">
+                  <div className="text-left lg:truncate group-hover:hidden mx-7 mt-5 text-white">
                     {details}
                   </div>
                   <div className="text-left mx-7 mt-5 text-white hidden group-hover:block">
@@ -300,10 +305,11 @@ export default function Products() {
             return (
               <div
                 key={id}
-                className="hover:shadow-none duration-300 bg-neutral-800 cursor-default py-7 h-fit w-96 rounded-3xl my-5 mx-5 shadow-lg shadow-pink-500 group"
+                className="hover:shadow-none duration-300 border-4 border-transparent hover:border-white bg-neutral-800 cursor-default py-7 h-fit w-96 rounded-3xl my-5 mx-5 shadow-lg shadow-pink-500 group"
               >
                 <center>
                   <LazyLoad
+                    loading="lazy"
                     effect="blur"
                     className="h-48 overflow-hidden w-85 duration-300 rounded-3xl"
                   >
@@ -327,7 +333,7 @@ export default function Products() {
                       🛒 Beli Sekarang
                     </Link>
                   </div>
-                  <div className="text-left truncate group-hover:hidden mx-7 mt-5 text-white">
+                  <div className="text-left lg:truncate group-hover:hidden mx-7 mt-5 text-white">
                     {details}
                   </div>
                   <div className="text-left mx-7 mt-5 text-white hidden group-hover:block">

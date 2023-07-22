@@ -47,7 +47,7 @@ export default function Home() {
       <div className="bg-neutral-950 rounded-3xl -mt-5 w-100 pb-5 md:mx-5">
         <div className="flex justify-between">
           <div className="pt-10 pb-5 mx-5 md:mx-10 text-white font-bold text-xl">
-            Produk Kita
+            Produk Kami
           </div>
           <div className="pt-10 pb-5 mx-5 md:mx-10 w-60 text-right text-neutral-400">
             Berbagai macam kerajinan tangan yang dapat direquest
